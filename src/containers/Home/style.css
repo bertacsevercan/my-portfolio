@@ -1,5 +1,21 @@
 .jumbotron {
-  background: url(../../images/geo.jpg) no-repeat center;
-  height: 92vh;
-  background-size: cover;
+  background-color: transparent;
+}
+
+.titles {
+  color: white;
+}
+
+.summary-text {
+  width: 50%;
+  border: tomato solid 5px;
+  background: wheat;
+  border-radius: 10px;
+}
+
+.summary-wrapper {
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

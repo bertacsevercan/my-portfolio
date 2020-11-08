@@ -2,17 +2,31 @@ import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <Jumbotron fluid className="jumbotron">
-      <h1>Hello, world!</h1>
+      <div className="titles">
+        <h1>Hello, world!</h1>
+        <h2>I'm Bertaç Severcan</h2>
+        <h3>and this is my portfolio!</h3>
+      </div>
+      <div className="summary-wrapper">
+        <p className="summary-text">
+          I'm a junior web-developer interested in technology and programming.
+          I've studied Management Information Systems and English Language
+          Teaching(Double Majors) at Istanbul Bilgi University and attended Re:
+          Coded Web Development Bootcamp. I have experience in programming
+          languages such as; Python, Java, Javascript, HTML, CSS. I'm interested
+          in both backend and frontend development. I love learning new things
+          and always look for something new.
+        </p>
+      </div>
       <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
-      <p>
-        <Button variant="primary">Learn more</Button>
+        <Button as={Link} to="/about" variant="primary">
+          Learn more
+        </Button>
       </p>
     </Jumbotron>
   );

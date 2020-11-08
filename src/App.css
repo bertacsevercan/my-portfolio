@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   height: 100vh;
+  background: url(./images/geo.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .App-logo {

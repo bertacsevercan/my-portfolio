@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <Navbar bg="danger" variant="dark" expand="lg">
       <Navbar.Brand as={Link} to="/">
-        My-Porfolio
+        Bertaç Severcan
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
