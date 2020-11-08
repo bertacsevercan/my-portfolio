@@ -1,0 +1,18 @@
+.about-text-wrapper {
+    width: 50%;
+    border: tomato solid 5px;
+    background: wheat;
+    border-radius: 10px;
+    padding: 0.5em;
+    box-shadow: black 2px 2px 2px;
+    font-weight: 50;
+    text-align: left;
+}
+
+.about {
+    padding: 1rem;
+}
+
+.about-text-wrapper p {
+    text-indent: 2rem;
+}
