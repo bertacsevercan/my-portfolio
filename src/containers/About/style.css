@@ -1,5 +1,5 @@
 .about-text-wrapper {
-  width: 50%;
+  width: 60%;
   border: tomato solid 5px;
   background: wheat;
   border-radius: 10px;
@@ -10,9 +10,19 @@
 }
 
 .about {
-  padding: 1rem;
+    display: flex;
+    padding: 1rem;
 }
 
 .about-text-wrapper p {
   text-indent: 2rem;
+}
+
+.img-wrapper {
+    padding-top: 6rem;
+}
+
+.img {  
+    border: honeydew solid 5px;
+    box-shadow: black 2px 2px 2px;
 }

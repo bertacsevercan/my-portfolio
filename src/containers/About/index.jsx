@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import Image from "react-bootstrap/Image";
-
+import pp from "../../images/pp.jpeg";
 const About = () => {
   return (
     <div className="about">
@@ -68,6 +68,14 @@ const About = () => {
           TL;DR: I'm a junior software/web developer who is interested in both
           backend and frontend and I'm looking for work, hire me! :)
         </h5>
+      </div>
+      <div className="img-wrapper">
+      <Image
+      className="img" 
+      width="50%"
+      roundedCircle
+      src={pp}
+      />
       </div>
     </div>
   );
