@@ -32,7 +32,8 @@ const About = () => {
           When I started the Re: Coded Bootcamp, I didn't know about web
           development and that was where I first learned about it. We started
           with HTML and CSS, then moved on with JavaScript. Lastly, we finished
-          with ReactJS.
+          with ReactJS and I also got the chance to learn about SCRUM and experience it first hand in the
+          capstone project.
         </p>
         <p>
           In my time within the Bootcamp, I've learned many new skills and
