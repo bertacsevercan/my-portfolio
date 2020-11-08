@@ -9,7 +9,7 @@ const Home = () => {
     <Jumbotron fluid className="jumbotron">
       <div className="titles">
         <h1>Hello, world!</h1>
-        <h2>I'm Bertaç Severcan</h2>
+        <h2>My name is Bertaç Severcan</h2>
         <h3>and this is my portfolio!</h3>
       </div>
       <div className="summary-wrapper">
@@ -27,7 +27,7 @@ const Home = () => {
         </p>
       </div>
       <p>
-        <Button as={Link} to="/about" variant="primary">
+        <Button as={Link} to="/about" variant="danger">
           Learn more
         </Button>
       </p>
