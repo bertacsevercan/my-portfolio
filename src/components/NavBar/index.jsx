@@ -11,7 +11,7 @@ const NavBar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-center" style={{ flex: 1 }}>
+        <Nav className="justify-content-end" style={{ flex: 1 }}>
           <Nav.Item>
             <Nav.Link as={Link} to="/">
               Home
