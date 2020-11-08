@@ -9,11 +9,13 @@ import Resume from './containers/Resume';
 import Contact from './containers/Contact';
 import Projects from './containers/Projects';
 import About from './containers/About';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <NavBar />
         <Route exact path="/" component={Home} />
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
