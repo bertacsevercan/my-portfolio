@@ -2,13 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import Image from "react-bootstrap/Image";
+import { FaHandPeace } from "react-icons/fa";
 import pp from "../../images/pp.jpeg";
 
 const About = () => {
   return (
     <div className="about">
       <div className="about-text-wrapper">
-        <h1>Hi there;</h1>
+        <h1>
+          Hi there
+          <FaHandPeace />
+        </h1>
         <h5>My name is Bertaç Severcan and I'm happy to introduce myself:</h5>
         <div className="img-wrapper">
           <Image className="img" width="30%" roundedCircle src={pp} />

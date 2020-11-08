@@ -9,6 +9,7 @@ import {
   FaUserFriends,
   FaGithub,
   FaLinkedinIn,
+  FaLevelDownAlt,
 } from "react-icons/fa";
 import "./style.css";
 
@@ -16,7 +17,10 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="form-wrapper">
-        <h1>Contact Me!</h1>
+        <h1>
+          Contact Me
+          <FaLevelDownAlt />{" "}
+        </h1>
         <Form name="contact" method="POST" data-netlify="true">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Your Email address</Form.Label>

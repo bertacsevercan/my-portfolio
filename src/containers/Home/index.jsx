@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       <p>
         <Button className="button" as={Link} to="/about" variant="danger">
-          Learn more
+          Learn more about me
         </Button>
       </p>
     </Jumbotron>
