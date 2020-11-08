@@ -27,7 +27,7 @@ const Home = () => {
         </p>
       </div>
       <p>
-        <Button as={Link} to="/about" variant="danger">
+        <Button className="button" as={Link} to="/about" variant="danger">
           Learn more
         </Button>
       </p>

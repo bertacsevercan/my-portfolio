@@ -4,6 +4,7 @@
 
 .titles {
   color: white;
+  text-shadow: 2px 2px black;
 }
 
 .summary-text {
@@ -12,6 +13,8 @@
   background: wheat;
   border-radius: 10px;
   padding: 0.5em;
+  box-shadow: black 2px 2px 2px;
+  font-weight: 50;
 }
 
 .summary-wrapper {
@@ -19,4 +22,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.button {
+    box-shadow: black 2px 2px 2px;
 }
