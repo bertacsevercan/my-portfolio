@@ -9,6 +9,14 @@ const About = () => {
       <div className="about-text-wrapper">
         <h1>Hi there;</h1>
         <h5>My name is Bertaç Severcan and I'm happy to introduce myself:</h5>
+        <div className="img-wrapper">
+          <Image
+          className="img" 
+          width="30%"
+          roundedCircle
+          src={pp}
+          />
+      </div>
         <p>
           I am a junior software/web developer from Istanbul, Turkey. I studied
           Management Information Systems and Teaching English As a Foreign
@@ -68,16 +76,9 @@ const About = () => {
           TL;DR: I'm a junior software/web developer who is interested in both
           backend and frontend and I'm looking for work, hire me! :)
         </h5>
-      </div>
-      <div className="img-wrapper">
-      <Image
-      className="img" 
-      width="50%"
-      roundedCircle
-      src={pp}
-      />
-      </div>
+    
     </div>
+  </div>
   );
 };
 
