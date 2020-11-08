@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import Image from "react-bootstrap/Image";
 import { FaHandPeace } from "react-icons/fa";
+import { ImSmile2 } from "react-icons/im";
+
 import pp from "../../images/pp.jpeg";
 
 const About = () => {
@@ -66,7 +68,8 @@ const About = () => {
           different instruments; piano, drums, guitar and I'd like to combine my
           love for programming and music one day. Oh, and I also do CrossFit and
           I have a Level-1 trainer certificate in CrossFit. But I don't want to
-          be that guy who talks about CrossFit all the time so I'll stop :)
+          be that guy who talks about CrossFit all the time so I'll stop{" "}
+          <ImSmile2 />
         </p>
         <p>
           So, yeah, this is me! If you want to{" "}
@@ -75,7 +78,7 @@ const About = () => {
         </p>
         <h5>
           TL;DR: I'm a junior software/web developer who is interested in both
-          backend and frontend and I'm looking for work, hire me! :)
+          backend and frontend and I'm looking for work, hire me! <ImSmile2 />
         </h5>
       </div>
     </div>
