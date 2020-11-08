@@ -15,12 +15,15 @@ const Home = () => {
       <div className="summary-wrapper">
         <p className="summary-text">
           I'm a junior web-developer interested in technology and programming.
+          <br />
           I've studied Management Information Systems and English Language
           Teaching(Double Majors) at Istanbul Bilgi University and attended Re:
-          Coded Web Development Bootcamp. I have experience in programming
-          languages such as; Python, Java, Javascript, HTML, CSS. I'm interested
-          in both backend and frontend development. I love learning new things
-          and always look for something new.
+          Coded Web Development Bootcamp. 
+          <br />
+          I have experience in programming languages such as; Python, Java, Javascript, HTML, CSS and
+          I'm interested in both backend and frontend development. 
+          <br />
+          I love learning new things and always look for something new.
         </p>
       </div>
       <p>
