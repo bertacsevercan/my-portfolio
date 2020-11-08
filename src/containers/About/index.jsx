@@ -11,13 +11,8 @@ const About = () => {
         <h1>Hi there;</h1>
         <h5>My name is Bertaç Severcan and I'm happy to introduce myself:</h5>
         <div className="img-wrapper">
-          <Image
-          className="img" 
-          width="30%"
-          roundedCircle
-          src={pp}
-          />
-      </div>
+          <Image className="img" width="30%" roundedCircle src={pp} />
+        </div>
         <p>
           I am a junior software/web developer from Istanbul, Turkey. I studied
           Management Information Systems and Teaching English As a Foreign
@@ -33,8 +28,8 @@ const About = () => {
           When I started the Re: Coded Bootcamp, I didn't know about web
           development and that was where I first learned about it. We started
           with HTML and CSS, then moved on with JavaScript. Lastly, we finished
-          with ReactJS and I also got the chance to learn about SCRUM and experience it first hand in the
-          capstone project.
+          with ReactJS and I also got the chance to learn about SCRUM and
+          experience it first hand in the capstone project.
         </p>
         <p>
           In my time within the Bootcamp, I've learned many new skills and
@@ -78,9 +73,8 @@ const About = () => {
           TL;DR: I'm a junior software/web developer who is interested in both
           backend and frontend and I'm looking for work, hire me! :)
         </h5>
-    
+      </div>
     </div>
-  </div>
   );
 };
 
