@@ -1,0 +1,14 @@
+.form-wrapper {
+    text-align: left;
+    width: 60%;
+    border: tomato solid 5px;
+    background: wheat;
+    border-radius: 10px;
+    padding: 0.5em;
+    box-shadow: black 2px 2px 2px;
+    text-align: left;
+}
+
+.contact {
+    padding: 3rem;
+}

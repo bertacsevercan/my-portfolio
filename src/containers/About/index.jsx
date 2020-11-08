@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import Image from "react-bootstrap/Image";
 import pp from "../../images/pp.jpeg";
+
 const About = () => {
   return (
     <div className="about">
