@@ -1,6 +1,6 @@
 .form-wrapper {
   text-align: left;
-  width: 50%;
+  width: 55%;
   border: tomato solid 5px;
   background: wheat;
   border-radius: 10px;
@@ -16,7 +16,8 @@
 }
 
 .contact-info {
-  width: 50%;
+  height: fit-content;
+  width: 45%;
   border: tomato solid 5px;
   background: wheat;
   border-radius: 10px;
