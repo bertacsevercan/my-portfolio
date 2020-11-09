@@ -14,18 +14,6 @@
   display: flex;
 }
 
-.contact-info {
-  height: fit-content;
-  width: 45%;
-  border: tomato solid 5px;
-  background: wheat;
-  border-radius: 10px;
-  padding: 0.5em;
-  box-shadow: black 2px 2px 2px;
-  text-align: left;
-  margin-left: 0.5em;
-}
-
 .social-links {
   display: flex;
   justify-content: space-evenly;
@@ -43,4 +31,29 @@
 
 .contact h1 {
   text-shadow: 1px 1px gray;
+}
+
+.address-icon {
+  transform: scale(12);
+  align-self: center;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 45%;
+  border: tomato solid 5px;
+  background: wheat;
+  border-radius: 10px;
+  padding: 0.5em;
+  box-shadow: black 2px 2px 2px;
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+.contact-info p,
+.contact-info h5,
+.contact-info h1 {
+  width: fit-content;
 }

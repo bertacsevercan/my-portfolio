@@ -71,7 +71,7 @@ const Projects = () => {
               title="website link"
               href={project.link}
             >
-              Go to website in a seperate page.
+              Open website in a seperate page.
             </a>
           </h5>
           <p>{project.text}</p>

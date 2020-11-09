@@ -50,49 +50,50 @@ const Contact = () => {
           </Button>
         </Form>
       </div>
-      <div className="contact-info">
-        <h1>
-          Other Contact Information <FaAddressCard />{" "}
-        </h1>
-        <h5>
-          {" "}
-          <FaMapMarkedAlt /> Address:
-        </h5>
-        <p>Istanbul/Turkey</p>
-        <h5>
-          {" "}
-          <FaPhoneAlt /> Phone:
-        </h5>
-        <p>+905433279325</p>
-        <h5>
-          {" "}
-          <FaMailBulk /> Email Address:
-        </h5>
-        <p>bertac.severcan@gmail.com</p>
-        <h5>
-          {" "}
-          <FaUserFriends /> Social Media:
-        </h5>
-        <div className="social-links">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            title="Link to my github profile"
-            href="https://github.com/bertacsevercan"
-          >
+      <div className="contact-info-wrapper">
+        <div className="contact-info">
+          <h1>Other Contact Information</h1>
+          <h5>
             {" "}
-            <FaGithub className="social-icons" />{" "}
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            title="Link to my linkedin profile"
-            href="https://www.linkedin.com/in/bertac-severcan/"
-          >
+            <FaMapMarkedAlt /> Address:
+          </h5>
+          <p>Istanbul/Turkey</p>
+          <h5>
             {" "}
-            <FaLinkedinIn className="social-icons" />{" "}
-          </a>
+            <FaPhoneAlt /> Phone:
+          </h5>
+          <p>+905433279325</p>
+          <h5>
+            {" "}
+            <FaMailBulk /> Email Address:
+          </h5>
+          <p>bertac.severcan@gmail.com</p>
+          <h5>
+            {" "}
+            <FaUserFriends /> Social Media:
+          </h5>
+          <div className="social-links">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              title="Link to my github profile"
+              href="https://github.com/bertacsevercan"
+            >
+              {" "}
+              <FaGithub className="social-icons" />{" "}
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              title="Link to my linkedin profile"
+              href="https://www.linkedin.com/in/bertac-severcan/"
+            >
+              {" "}
+              <FaLinkedinIn className="social-icons" />{" "}
+            </a>
+          </div>
         </div>
+        <FaAddressCard className="address-icon" />
       </div>
     </div>
   );
