@@ -8,9 +8,14 @@
 }
 
 .projects {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .project-wrapper h1 {
-    text-shadow: 1px 1px gray;
+  text-shadow: 1px 1px gray;
+}
+
+.project-wrapper p {
+  font-weight: 50;
+  text-align: left;
 }
