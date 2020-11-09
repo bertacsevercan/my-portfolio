@@ -14,6 +14,7 @@
 .about-text-wrapper p {
   width: 70%;
   text-indent: 2rem;
+  font-weight: 50;
 }
 
 .img {
@@ -22,6 +23,6 @@
   box-shadow: black 2px 2px 2px;
 }
 
-.about-text-wrapper p {
-  font-weight: 50;
+.about-text-wrapper h1 {
+  text-shadow: 1px 1px gray;
 }

@@ -6,7 +6,6 @@
   border-radius: 10px;
   padding: 0.5em;
   box-shadow: black 2px 2px 2px;
-  text-align: left;
   margin-right: 0.5em;
 }
 
@@ -40,4 +39,9 @@
 
 .social-icons {
   transform: scale(2);
+}
+
+.contact h1 {
+  text-shadow: 1px 1px gray;
+
 }
