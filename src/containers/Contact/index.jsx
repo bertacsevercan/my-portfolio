@@ -22,6 +22,7 @@ const Contact = () => {
           <FaLevelDownAlt />{" "}
         </h1>
         <Form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Your Email address</Form.Label>
             <Form.Control name="email" type="email" placeholder="Enter email" />
