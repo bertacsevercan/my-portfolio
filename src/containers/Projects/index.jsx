@@ -4,9 +4,9 @@ import projectList from "./iframes";
 
 const Projects = () => {
 
-  const titleList = ["M.Y-Inventory",];
-  const textList = ["Description goes here!",];
-  const repoList = ["https://github.com/bertacsevercan/tina-zita.v2",];
+  const titleList = ["M.Y-Inventory", "Madlibz"];
+  const textList = ["Description goes here!", "Description goes here!"];
+  const repoList = ["https://github.com/bertacsevercan/tina-zita.v2", "https://github.com/bertacsevercan/Madlibz"];
 
   const projectObjList = [];
 
