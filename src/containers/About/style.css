@@ -4,7 +4,6 @@
   border-radius: 10px;
   padding: 0.5em;
   box-shadow: black 2px 2px 2px;
-  font-weight: 50;
   text-align: left;
 }
 
@@ -21,4 +20,8 @@
   float: right;
   border: rgb(12, 143, 224) solid 5px;
   box-shadow: black 2px 2px 2px;
+}
+
+.about-text-wrapper p {
+  font-weight: 50;
 }
