@@ -11,6 +11,11 @@
   padding: 3rem;
 }
 
+.title {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
 .project-wrapper h1 {
   text-shadow: 1px 1px gray;
 }
