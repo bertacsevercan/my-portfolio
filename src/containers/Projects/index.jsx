@@ -4,12 +4,18 @@ import projectList from "./iframes";
 
 const Projects = () => {
 
-  const titleList = ["Madlibs", "Movie-Project", "M.Y-Inventory",  ];
-  const textList = ["Description goes here!", "Description goes here!", "Description goes here!"];
-  const repoList = ["https://github.com/bertacsevercan/Madlibz", "https://github.com/bertacsevercan/Movie-Project" 
-  ,"https://github.com/bertacsevercan/tina-zita.v2", ];
+  const titleList = ["Madlibs", "Movie-Project", "Weekly-Workout-Planner", "M.Y-Inventory", "Food On Coupon" ];
+
+  const textList = ["Description goes here!", "Description goes here!", "Description goes here!",
+   "Description goes here!", "Description goes here!"];
+
+  const repoList = ["https://github.com/bertacsevercan/Madlibz", "https://github.com/bertacsevercan/Movie-Project" ,
+  "https://github.com/bertacsevercan/weekly-workout-planner","https://github.com/bertacsevercan/tina-zita.v2", 
+"https://github.com/ReCoded-Org/capstone-istanbul-feed_the_needy"];
+
   const linkList =["https://bertacsevercan.github.io/Madlibz/", "https://bertacsevercan.github.io/Movie-Project/",
- "https://my-inventory.netlify.app/"];
+  "https://weekly-workout-planner.netlify.app/", "https://my-inventory.netlify.app/", "https://feed-the-needy.netlify.app"];
+
   const projectObjList = [];
 
   for(let i = 0; i < projectList.length; i++){
