@@ -24,3 +24,13 @@
   font-weight: 50;
   text-align: left;
 }
+
+.external-icon {
+  padding-left: 0.5em;
+  color: black;
+}
+
+.github-icon {
+  padding-right: 0.5em;
+  color: black;
+}

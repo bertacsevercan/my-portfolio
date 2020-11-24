@@ -1,6 +1,7 @@
 import React from "react";
-import "./style.css";
 import projectList from "./iframes";
+import { GoLinkExternal, GoMarkGithub } from "react-icons/go";
+import "./style.css";
 
 const Projects = () => {
   const titleList = [
@@ -53,27 +54,27 @@ const Projects = () => {
       {projectObjList.map((project) => (
         <div className="project-wrapper">
           <h1>{project.title}</h1>
-          <h5>
+          <h3>
             <a
+              className="github-icon"
               target="_blank"
               rel="noreferrer"
-              title="repo link"
+              title="Github repository"
               href={project.repo}
             >
-              Github repository.
+              <GoMarkGithub />
             </a>
-          </h5>
-          {project.website}
-          <h5>
             <a
+              className="external-icon"
               target="_blank"
               rel="noreferrer"
-              title="website link"
+              title="Open website in a seperate page"
               href={project.link}
             >
-              Open website in a seperate page.
+              <GoLinkExternal />
             </a>
-          </h5>
+          </h3>
+          {project.website}
           <p>{project.text}</p>
         </div>
       ))}
