@@ -2,8 +2,11 @@ import React from "react";
 import projectList from "./iframes";
 import { GoLinkExternal, GoMarkGithub } from "react-icons/go";
 import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   const titleList = [
     "M.Y-Inventory",
     "It's On Us",
@@ -50,7 +53,7 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <h1 className="title">My projects</h1>
+      <h1 className="title">{t("projects.title")}</h1>
       {projectObjList.map((project) => (
         <div className="project-wrapper">
           <h1>{project.title}</h1>

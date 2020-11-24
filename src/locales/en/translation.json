@@ -28,5 +28,8 @@
       "tr": "Turkish",
       "en": "English"
     }
+  },
+  "projects": {
+    "title": "My projects"
   }
 }
