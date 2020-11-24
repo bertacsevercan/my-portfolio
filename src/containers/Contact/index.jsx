@@ -59,22 +59,22 @@ const Contact = () => {
         </h1>
         <h5>
           {" "}
-          <FaMapMarkedAlt /> Address:
+          <FaMapMarkedAlt /> Address
         </h5>
         <p>Istanbul/Turkey</p>
         <h5>
           {" "}
-          <FaPhoneAlt /> Phone:
+          <FaPhoneAlt /> Phone
         </h5>
         <p>+905433279325</p>
         <h5>
           {" "}
-          <FaMailBulk /> Email Address:
+          <FaMailBulk /> Email Address
         </h5>
         <p>bertac.severcan@gmail.com</p>
         <h5>
           {" "}
-          <FaUserFriends /> Social Media:
+          <FaUserFriends /> Social Media
         </h5>
         <div className="social-links">
           <a
