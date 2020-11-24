@@ -1,18 +1,18 @@
 {
-    "home" : {
-        "titles" : {
-            "title0" : "Hello, world!",
-            "title1" : "My name is Bertaç Severcan,"
-        },
-        "texts" : {
-            "text0" : "I'm a junior software/web-developer interested in technology and programming.",
-            "text1" : "I've studied Management Information Systems and English Language Teaching (Double Majors) at Istanbul Bilgi University and attended the Re:Coded Web Development Bootcamp.",
-            "text2" : "I have experience in programming languages such as: Python, Java, Javascript, HTML, CSS, SQL and I'm interested in both backend and frontend development.",
-            "text3" : "I love learning new things and am always looking for something new."
-        },
-        "buttons" : {
-            "button0" : "Check out my projects",
-            "button1" : "Learn more about me"
-        }
+  "home": {
+    "titles": {
+      "title0": "Hello, world!",
+      "title1": "My name is Bertaç Severcan,"
+    },
+    "texts": {
+      "text0": "I'm a junior software/web-developer interested in technology and programming.",
+      "text1": "I've studied Management Information Systems and English Language Teaching (Double Majors) at Istanbul Bilgi University and attended the Re:Coded Web Development Bootcamp.",
+      "text2": "I have experience in programming languages such as: Python, Java, Javascript, HTML, CSS, SQL and I'm interested in both backend and frontend development.",
+      "text3": "I love learning new things and am always looking for something new."
+    },
+    "buttons": {
+      "button0": "Check out my projects",
+      "button1": "Learn more about me"
     }
+  }
 }

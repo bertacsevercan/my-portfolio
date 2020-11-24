@@ -3,13 +3,16 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import "./style.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <Jumbotron fluid className="jumbotron">
       <div className="titles">
-        <h1>Hello, world!</h1>
-        <h2>My name is Bertaç Severcan,</h2>
+        <h1>{t("home.titles.title0")}</h1>
+        <h2>{t("home.titles.title1")}</h2>
       </div>
       <div className="summary-wrapper">
         <p className="summary-text">
