@@ -28,21 +28,31 @@ const Contact = () => {
             <Form.Control
               name="email"
               type="email"
+              required="true"
               placeholder="john.doe@mail.com"
             />
           </Form.Group>
           <Form.Group controlId="formInputName">
             <Form.Label>Your full name</Form.Label>
-            <Form.Control name="fullName" placeholder="John Doe" />
+            <Form.Control
+              name="fullName"
+              placeholder="John Doe"
+              required="true"
+            />
           </Form.Group>
           <Form.Group controlId="formInputSubject">
             <Form.Label>Subject</Form.Label>
-            <Form.Control name="subject" placeholder="What is it about?" />
+            <Form.Control
+              name="subject"
+              placeholder="What is it about?"
+              required="true"
+            />
           </Form.Group>
           <Form.Group controlId="form.ControlTextarea">
             <Form.Label>Your Message</Form.Label>
             <Form.Control
               name="message"
+              required="true"
               placeholder="Hello, Bertaç!"
               as="textarea"
               rows={3}
