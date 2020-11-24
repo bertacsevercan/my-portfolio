@@ -32,7 +32,6 @@
 
 .buttons-wrapper {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-flow: wrap;
-
 }

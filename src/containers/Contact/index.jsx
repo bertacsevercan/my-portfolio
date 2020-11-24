@@ -18,28 +18,26 @@ const Contact = () => {
     <div className="contact">
       <div className="form-wrapper">
         <h1>
-          Contact Me
+          Contact me
           <FaLevelDownAlt />{" "}
         </h1>
         <Form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <Form.Group controlId="formBasicEmail">
-            <Form.Label>Your Email address</Form.Label>
-            <Form.Control name="email" type="email" placeholder="Enter email" />
-            <Form.Text className="text-muted">
-              Please enter a valid email.
-            </Form.Text>
+            <Form.Label>Your email address</Form.Label>
+            <Form.Control
+              name="email"
+              type="email"
+              placeholder="john.doe@mail.com"
+            />
           </Form.Group>
           <Form.Group controlId="formInputName">
-            <Form.Label>Your Full Name</Form.Label>
-            <Form.Control name="fullName" placeholder="Full Name" />
-            <Form.Text className="text-muted">E.g: John Doe</Form.Text>
+            <Form.Label>Your full name</Form.Label>
+            <Form.Control name="fullName" placeholder="John Doe" />
           </Form.Group>
-
           <Form.Group controlId="formInputSubject">
             <Form.Label>Subject</Form.Label>
-            <Form.Control name="subject" placeholder="Subject" />
-            <Form.Text className="text-muted">What is it about?</Form.Text>
+            <Form.Control name="subject" placeholder="What is it about?" />
           </Form.Group>
           <Form.Group controlId="form.ControlTextarea">
             <Form.Label>Your Message</Form.Label>
@@ -50,7 +48,6 @@ const Contact = () => {
               rows={3}
             />
           </Form.Group>
-
           <Button variant="danger" type="submit" block>
             Send
           </Button>
@@ -58,7 +55,7 @@ const Contact = () => {
       </div>
       <div className="contact-info">
         <h1>
-          Other Contact Information <FaAddressCard />{" "}
+          Other contact information <FaAddressCard />{" "}
         </h1>
         <h5>
           {" "}

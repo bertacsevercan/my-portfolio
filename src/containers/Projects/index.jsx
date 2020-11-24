@@ -49,7 +49,7 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <h1 className="title">My Projects</h1>
+      <h1 className="title">My projects</h1>
       {projectObjList.map((project) => (
         <div className="project-wrapper">
           <h1>{project.title}</h1>
