@@ -14,5 +14,14 @@
       "button0": "Check out my projects",
       "button1": "Learn more about me"
     }
+  },
+  "navbar" : {
+    "links" : {
+      "link0" : "Home",
+      "link1" : "About",
+      "link2" : "Resume",
+      "link3" : "Projects",
+      "link4" : "Contact"
+    }
   }
 }
