@@ -9,7 +9,7 @@ const Home = () => {
     <Jumbotron fluid className="jumbotron">
       <div className="titles">
         <h1>Hello, world!</h1>
-        <h2>My name is Bertaç Severcan</h2>
+        <h2>My name is Bertaç Severcan,</h2>
       </div>
       <div className="summary-wrapper">
         <p className="summary-text">
@@ -17,14 +17,14 @@ const Home = () => {
           programming.
           <br />
           I've studied Management Information Systems and English Language
-          Teaching(Double Majors) at Istanbul Bilgi University and attended Re:
-          Coded Web Development Bootcamp.
-          <br />  
-          I have experience in programming languages such as; Python, Java,
+          Teaching (Double Majors) at Istanbul Bilgi University and attended the
+          Re:Coded Web Development Bootcamp.
+          <br />
+          I have experience in programming languages such as: Python, Java,
           Javascript, HTML, CSS, SQL and I'm interested in both backend and
           frontend development.
-          <br />
-          I love learning new things and always look for something new.
+          <br />I love learning new things and am always looking for something
+          new.
         </p>
       </div>
       <p>

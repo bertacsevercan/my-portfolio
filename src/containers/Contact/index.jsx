@@ -43,7 +43,12 @@ const Contact = () => {
           </Form.Group>
           <Form.Group controlId="form.ControlTextarea">
             <Form.Label>Your Message</Form.Label>
-            <Form.Control name="message" placeholder="Hello, Bertaç!" as="textarea" rows={3} />
+            <Form.Control
+              name="message"
+              placeholder="Hello, Bertaç!"
+              as="textarea"
+              rows={3}
+            />
           </Form.Group>
 
           <Button variant="danger" type="submit" block>
