@@ -57,21 +57,25 @@ const Contact = () => {
         <h1>
           Other contact information <FaAddressCard />{" "}
         </h1>
+        <br />
         <h5>
           {" "}
           <FaMapMarkedAlt /> Address
         </h5>
         <p>Istanbul/Turkey</p>
+        <br />
         <h5>
           {" "}
           <FaPhoneAlt /> Phone
         </h5>
         <p>+905433279325</p>
+        <br />
         <h5>
           {" "}
           <FaMailBulk /> Email Address
         </h5>
         <p>bertac.severcan@gmail.com</p>
+        <br />
         <h5>
           {" "}
           <FaUserFriends /> Social Media
