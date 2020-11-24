@@ -19,11 +19,12 @@ const Home = () => {
           I've studied Management Information Systems and English Language
           Teaching(Double Majors) at Istanbul Bilgi University and attended Re:
           Coded Web Development Bootcamp.
-          <br />
+          <br />  
           I have experience in programming languages such as; Python, Java,
           Javascript, HTML, CSS, SQL and I'm interested in both backend and
           frontend development.
-          <br />I love learning new things and always look for something new.
+          <br />
+          I love learning new things and always look for something new.
         </p>
       </div>
       <p>
