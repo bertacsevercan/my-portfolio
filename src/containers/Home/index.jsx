@@ -10,7 +10,6 @@ const Home = () => {
       <div className="titles">
         <h1>Hello, world!</h1>
         <h2>My name is Bertaç Severcan</h2>
-        <h3>and this is my portfolio!</h3>
       </div>
       <div className="summary-wrapper">
         <p className="summary-text">
