@@ -16,26 +16,21 @@ const Home = () => {
       </div>
       <div className="summary-wrapper">
         <p className="summary-text">
-          I'm a junior software/web-developer interested in technology and
-          programming.
+          {t("home.texts.text0")}
           <br />
-          I've studied Management Information Systems and English Language
-          Teaching (Double Majors) at Istanbul Bilgi University and attended the
-          Re:Coded Web Development Bootcamp.
+          {t("home.texts.text1")}
           <br />
-          I have experience in programming languages such as: Python, Java,
-          Javascript, HTML, CSS, SQL and I'm interested in both backend and
-          frontend development.
-          <br />I love learning new things and am always looking for something
-          new.
+          {t("home.texts.text2")}
+          <br />
+          {t("home.texts.text3")}
         </p>
       </div>
       <div className="buttons-wrapper">
         <Button className="button" as={Link} to="/projects" variant="danger">
-          Check out my projects
+          {t("home.buttons.button0")}
         </Button>
         <Button className="button" as={Link} to="/about" variant="danger">
-          Learn more about me
+          {t("home.buttons.button1")}
         </Button>
       </div>
     </Jumbotron>
