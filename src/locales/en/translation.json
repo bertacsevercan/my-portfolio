@@ -15,13 +15,18 @@
       "button1": "Learn more about me"
     }
   },
-  "navbar" : {
-    "links" : {
-      "link0" : "Home",
-      "link1" : "About",
-      "link2" : "Resume",
-      "link3" : "Projects",
-      "link4" : "Contact"
+  "navbar": {
+    "links": {
+      "link0": "Home",
+      "link1": "About",
+      "link2": "Resume",
+      "link3": "Projects",
+      "link4": "Contact",
+      "link5": "Language"
+    },
+    "languages": {
+      "tr": "Turkish",
+      "en": "English"
     }
   }
 }

@@ -2,8 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 const NavBar = () => {
+  const { t } = useTranslation();
+
   return (
     <Navbar bg="danger" variant="dark" expand="lg">
       <Navbar.Brand as={Link} to="/">
@@ -14,29 +19,48 @@ const NavBar = () => {
         <Nav className="justify-content-end" style={{ flex: 1 }}>
           <Nav.Item>
             <Nav.Link as={Link} to="/">
-              Home
+              {t("navbar.links.link0")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link as={Link} to="/about">
-              About
+              {t("navbar.links.link1")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link as={Link} to="/resume">
-              Resume
+              {t("navbar.links.link2")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link as={Link} to="/projects">
-              Projects
+              {t("navbar.links.link3")}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link as={Link} to="/contact">
-              Contact
+              {t("navbar.links.link4")}
             </Nav.Link>
           </Nav.Item>
+          <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
+            <NavDropdown.Item
+              onClick={() => {
+                i18next.changeLanguage("tr");
+              }}
+              href="#action/3.1"
+            >
+              {t("navbar.languages.tr")}
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item
+              onClick={() => {
+                i18next.changeLanguage("en");
+              }}
+              href="#action/3.2"
+            >
+              {t("navbar.languages.en")}
+            </NavDropdown.Item>
+          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
