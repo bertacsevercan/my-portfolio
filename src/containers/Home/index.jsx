@@ -27,11 +27,14 @@ const Home = () => {
           new.
         </p>
       </div>
-      <p>
+      <div className="buttons-wrapper">
+      <Button className="button" as={Link} to="/projects" variant="danger">
+          Check out my projects
+        </Button>
         <Button className="button" as={Link} to="/about" variant="danger">
           Learn more about me
         </Button>
-      </p>
+        </div>
     </Jumbotron>
   );
 };

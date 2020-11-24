@@ -27,4 +27,12 @@
 
 .button {
   box-shadow: black 2px 2px 2px;
+  margin: 1em;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content:center;
+  flex-flow: wrap;
+
 }
