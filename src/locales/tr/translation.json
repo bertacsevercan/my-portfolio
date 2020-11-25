@@ -30,6 +30,36 @@
     },
     "projects": {
       "title": "Projelerim"
+    },
+    "contact" : {
+      "titles" : {
+        "title0" : "Contact me",
+        "title1" : "Other contact information"
+      },
+      "labels" : {
+          "label0" : "Your email adress",
+          "label1" : "Your full name",
+          "label2" : "Subject",
+          "label3" : "Your message"
+      },
+      "placeholders" : {
+        "holder0" : "john.doe@mail.com",
+        "holder1" : "John Doe",
+        "holder2" : "What is it about?",
+        "holder3" : "Hello, Bertaç!"
+      },
+      "button" : "Send",
+      "headers" : {
+        "head0" : "Address",
+        "head1" : "Phone",
+        "head2" : "Email Address",
+        "head3" : "Social Media"
+      },
+      "texts" : {
+        "text0" : "Istanbul/Turkey",
+        "text1" : "Link to my GitHub profile",
+        "text2" : "Link to my LinkedIn profile"
+      }
     }
   }
 }
