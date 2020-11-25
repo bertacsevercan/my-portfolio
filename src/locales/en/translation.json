@@ -37,6 +37,10 @@
       "text2": "This is the third project that I've worked on during the Re: Coded Bootcamp with my bro Ihab (Hello Ihab!). The purpose of this project was to create a board app which is similar to a to-do app. We decided to do a weekly-workout-planning app. In this project, I've used ReactJS for the first time and it was such a good practice for me to understand React. I've also used Ant Design to style the application. Also, I've used Google's Firebase to store user data. Overall, this project was challenging but so much fun and full of learning experience.",
       "text3": "This is the second project that I've worked on during the Re: Coded Bootcamp with a partner (Hello Tarkan!). This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, I've used object-oriented programming and used MovieDb API to fetch the necessary movie data. Also, I used vanilla JavaScript, HTML and Bootstrap with CSS for styling. Overall, this project was more challenging than the previous Madlibs however; I was able to overcome the difficulties.",
       "text4": "This is the first project that I've worked on during the time of the Re: Coded Bootcamp. The purpose of the website is to play mad libs. It also has Turkish and English language support. It can save your words by using local storage.  For the first time, I did pair programming and worked on a project with a partner (Hello Knar!) and it was my first ever vanilla JavaScript, HTML, CSS project. Also, it was the first time that I learned about and worked with regular expressions, i18next library, local storage. The style of the project was purely CSS. I didn't use any frameworks for styling. Overall, I had so much fun with this project and learned a lot too."
+    },
+    "links": {
+      "link0": "Github repository",
+      "link1": "Open website in a seperate page"
     }
   },
   "contact": {
