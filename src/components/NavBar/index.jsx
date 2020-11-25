@@ -5,6 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import { FaLanguage } from "react-icons/fa";
+
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -17,7 +19,7 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end" style={{ flex: 1 }}>
-          <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
+          <NavDropdown title={<FaLanguage style={{transform: "scale(1.5)"}} />} id="basic-nav-dropdown">
             <NavDropdown.Item
               onClick={() => {
                 i18next.changeLanguage("tr");
