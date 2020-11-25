@@ -33,32 +33,32 @@
     },
     "contact" : {
       "titles" : {
-        "title0" : "Contact me",
-        "title1" : "Other contact information"
+        "title0" : "Benimle iletişime geçin",
+        "title1" : "Diğer iletişim bilgileri"
       },
       "labels" : {
-          "label0" : "Your email adress",
-          "label1" : "Your full name",
-          "label2" : "Subject",
-          "label3" : "Your message"
+          "label0" : "E-posta adresiniz",
+          "label1" : "Tam adınız",
+          "label2" : "Konu",
+          "label3" : "Mesajınız"
       },
       "placeholders" : {
-        "holder0" : "john.doe@mail.com",
-        "holder1" : "John Doe",
-        "holder2" : "What is it about?",
-        "holder3" : "Hello, Bertaç!"
+        "holder0" : "ali.veli@mail.com",
+        "holder1" : "Ali Veli",
+        "holder2" : "Ne hakkında?",
+        "holder3" : "Merhaba, Bertaç!"
       },
-      "button" : "Send",
+      "button" : "Gönder",
       "headers" : {
-        "head0" : "Address",
-        "head1" : "Phone",
-        "head2" : "Email Address",
-        "head3" : "Social Media"
+        "head0" : "Adres",
+        "head1" : "Telefon",
+        "head2" : "E-posta Adresi",
+        "head3" : "Sosyal Medya"
       },
       "texts" : {
-        "text0" : "Istanbul/Turkey",
-        "text1" : "Link to my GitHub profile",
-        "text2" : "Link to my LinkedIn profile"
+        "text0" : "İstanbul/Türkiye",
+        "text1" : "GitHub profil linki",
+        "text2" : "LinkedIn profil linki"
       }
     }
   }
