@@ -27,39 +27,39 @@
     "languages": {
       "tr": "Türkçe",
       "en": "İngilizce"
+    }
+  },
+  "projects": {
+    "title": "Projelerim"
+  },
+  "contact": {
+    "titles": {
+      "title0": "Benimle iletişime geçin",
+      "title1": "Diğer iletişim bilgileri"
     },
-    "projects": {
-      "title": "Projelerim"
+    "labels": {
+      "label0": "E-posta adresiniz",
+      "label1": "Tam adınız",
+      "label2": "Konu",
+      "label3": "Mesajınız"
     },
-    "contact" : {
-      "titles" : {
-        "title0" : "Benimle iletişime geçin",
-        "title1" : "Diğer iletişim bilgileri"
-      },
-      "labels" : {
-          "label0" : "E-posta adresiniz",
-          "label1" : "Tam adınız",
-          "label2" : "Konu",
-          "label3" : "Mesajınız"
-      },
-      "placeholders" : {
-        "holder0" : "ali.veli@mail.com",
-        "holder1" : "Ali Veli",
-        "holder2" : "Ne hakkında?",
-        "holder3" : "Merhaba, Bertaç!"
-      },
-      "button" : "Gönder",
-      "headers" : {
-        "head0" : "Adres",
-        "head1" : "Telefon",
-        "head2" : "E-posta Adresi",
-        "head3" : "Sosyal Medya"
-      },
-      "texts" : {
-        "text0" : "İstanbul/Türkiye",
-        "text1" : "GitHub profil linki",
-        "text2" : "LinkedIn profil linki"
-      }
+    "placeholders": {
+      "holder0": "ali.veli@mail.com",
+      "holder1": "Ali Veli",
+      "holder2": "Ne hakkında?",
+      "holder3": "Merhaba, Bertaç!"
+    },
+    "button": "Gönder",
+    "headers": {
+      "head0": "Adres",
+      "head1": "Telefon",
+      "head2": "E-posta Adresi",
+      "head3": "Sosyal Medya"
+    },
+    "texts": {
+      "text0": "İstanbul/Türkiye",
+      "text1": "GitHub profil linki",
+      "text2": "LinkedIn profil linki"
     }
   }
 }
