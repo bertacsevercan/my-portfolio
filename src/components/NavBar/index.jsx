@@ -17,6 +17,25 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end" style={{ flex: 1 }}>
+          <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
+            <NavDropdown.Item
+              onClick={() => {
+                i18next.changeLanguage("tr");
+              }}
+              href="#action/3.1"
+            >
+              {t("navbar.languages.tr")}
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item
+              onClick={() => {
+                i18next.changeLanguage("en");
+              }}
+              href="#action/3.2"
+            >
+              {t("navbar.languages.en")}
+            </NavDropdown.Item>
+          </NavDropdown>
           <Nav.Item>
             <Nav.Link as={Link} to="/">
               {t("navbar.links.link0")}
@@ -42,25 +61,6 @@ const NavBar = () => {
               {t("navbar.links.link4")}
             </Nav.Link>
           </Nav.Item>
-          <NavDropdown title={t("navbar.links.link5")} id="basic-nav-dropdown">
-            <NavDropdown.Item
-              onClick={() => {
-                i18next.changeLanguage("tr");
-              }}
-              href="#action/3.1"
-            >
-              {t("navbar.languages.tr")}
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item
-              onClick={() => {
-                i18next.changeLanguage("en");
-              }}
-              href="#action/3.2"
-            >
-              {t("navbar.languages.en")}
-            </NavDropdown.Item>
-          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

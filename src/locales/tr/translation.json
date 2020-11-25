@@ -6,7 +6,7 @@
     },
     "texts": {
       "text0": "Ben teknoloji ve programlamayla ilgilenen, bir junior yazılım/web geliştiricisiyim.",
-      "text1": "İstanbul Bilgi Üniversitesi Yönetim Bilişim Sistemleri ve İngilizce Öğretmenliği bölümleri (ÇAP) mezunuyum ve 6 aylık Re:Coded Web Geliştirme Kampından başarıyla mezun oldum.",
+      "text1": "İstanbul Bilgi Üniversitesi Yönetim Bilişim Sistemleri ve İngilizce Öğretmenliği bölümleri (ÇAP) mezunuyum ve 6 aylık Re:Coded Web Geliştirme Kampından da başarıyla mezun oldum.",
       "text2": "Python, Java, Javascript, HTML, CSS, SQL gibi programlama dillerinde deneyim sahibiyim ve hem backend hem de frontend yazılım geliştirme ile ilgileniyorum.",
       "text3": "Her zaman yenilikler peşinde olmayı ve yeni şeyler öğrenmeyi seviyorum."
     },
@@ -17,19 +17,19 @@
   },
   "navbar": {
     "links": {
-      "link0": "Home",
-      "link1": "About",
-      "link2": "Resume",
-      "link3": "Projects",
-      "link4": "Contact",
-      "link5": "Language"
+      "link0": "Ana sayfa",
+      "link1": "Hakkımda",
+      "link2": "Özgeçmiş",
+      "link3": "Projelerim",
+      "link4": "İletişim",
+      "link5": "Dil"
     },
     "languages": {
-      "tr": "Turkish",
-      "en": "English"
+      "tr": "Türkçe",
+      "en": "İngilizce"
     },
     "projects": {
-      "title": "My projects"
+      "title": "Projelerim"
     }
   }
 }
