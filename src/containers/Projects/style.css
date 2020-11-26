@@ -34,3 +34,13 @@
   padding-right: 0.5em;
   color: black;
 }
+
+@media only screen and (max-width: 576px) {
+  .projects {
+    padding: 1rem;
+  }
+
+  .project-wrapper iframe {
+    width: 100%;
+  }
+}
