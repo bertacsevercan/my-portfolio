@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
 import Image from "react-bootstrap/Image";
 import { FaHandPeace } from "react-icons/fa";
 import { ImSmile2 } from "react-icons/im";
 import { useTranslation } from "react-i18next";
 import pp from "../../images/pp.jpeg";
+import "./style.css";
 
 const About = () => {
   const { t } = useTranslation();

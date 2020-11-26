@@ -12,7 +12,7 @@
 }
 
 .about-text-wrapper p {
-  width: 70%;
+  width: 80%;
   text-indent: 2rem;
   font-weight: 50;
 }
@@ -25,4 +25,29 @@
 
 .about-text-wrapper h1 {
   text-shadow: 1px 1px gray;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 576px) {
+  .about-text-wrapper {
+    font-size: large;
+  }
+
+  .about-text-wrapper p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about-text-wrapper p {
+    width: 100%;
+  }
+
+  .about {
+    padding: 1rem;
+  }
+
+  .img-wrapper img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
