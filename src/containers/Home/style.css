@@ -35,3 +35,38 @@
   justify-content: center;
   flex-flow: wrap;
 }
+
+@media only screen and (max-width: 576px) {
+  /*mobile*/
+  .summary-text {
+    width: auto;
+  }
+
+  .summary-wrapper {
+    padding: 3rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  /*ipad*/
+  .summary-text {
+    width: 70%;
+    font-size: larger;
+  }
+
+  .button {
+    font-size: larger;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  /*ipad pro*/
+  .summary-text {
+    width: 70%;
+    font-size: x-large;
+  }
+
+  .button {
+    font-size: x-large;
+  }
+}
