@@ -54,7 +54,7 @@ const Resume = () => {
             rel="noreferrer"
             target="_blank"
             title={t("projects.links.link1")}
-            href="https://my-inventory.netlify.app "
+            href="https://my-inventory.netlify.app"
           >
             <GoLinkExternal />
           </a>
@@ -69,6 +69,71 @@ const Resume = () => {
           <li>{t("resume.list0.li3")}</li>
           <li>{t("resume.list0.li4")}</li>
           <li>{t("resume.list0.li5")}</li>
+        </ul>
+      </div>
+      <div className="techProject-text">
+        <p>
+          <b>It's On Us</b> -{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link0")}
+            href="https://github.com/ReCoded-Org/capstone-istanbul-feed_the_needy"
+          >
+            <FaGithub />
+          </a>{" "}
+          |{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link1")}
+            href="https://feed-the-needy.netlify.app"
+          >
+            <GoLinkExternal />
+          </a>
+        </p>
+        <p>
+          <i>{t("resume.texts.text2")}</i>
+        </p>
+        <ul>
+          <li>{t("resume.list1.li0")}</li>
+          <li>{t("resume.list1.li1")}</li>
+          <li>{t("resume.list1.li2")}</li>
+          <li>{t("resume.list1.li3")}</li>
+          <li>{t("resume.list1.li4")}</li>
+          <li>{t("resume.list1.li5")}</li>
+          <li>{t("resume.list1.li6")}</li>
+          <li>{t("resume.list1.li7")}</li>
+        </ul>
+      </div>
+      <div className="techProject-text">
+        <p>
+          <b>Weekly Workout Planner</b> -{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link0")}
+            href="https://github.com/bertacsevercan/weekly-workout-planner"
+          >
+            <FaGithub />
+          </a>{" "}
+          |{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link1")}
+            href="https://weekly-workout-planner.netlify.app"
+          >
+            <GoLinkExternal />
+          </a>
+        </p>
+        <p>
+          <i>{t("resume.texts.text3")}</i>
+        </p>
+        <ul>
+          <li>{t("resume.list2.li0")}</li>
+          <li>{t("resume.list2.li1")}</li>
+          <li>{t("resume.list2.li2")}</li>
         </ul>
       </div>
     </div>
