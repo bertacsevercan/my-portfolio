@@ -132,6 +132,12 @@
       "li0": "Increased the efficiency by helping in the documentation of bills.",
       "li1": "Tested the in-house information system and prepared a survey for the users to improve the system in the future."
     },
+    "list4": {
+      "li0": " Front End Web Development (HTML, CSS, JavaScript, React)",
+      "li1": "5-month intense web development program run by Re:Coded with Flatiron School's curriculum."
+    },
+    "list5": "Degree: Management Information Systems",
+    "list6": "Degree: Teaching English as a Foreign Language",
     "employment": {
       "company0": {
         "city": "Istanbul",
@@ -140,6 +146,7 @@
         "date": "January/2020 - February/2020",
         "website": "http://ecoserv.com.tr/tr/Default.aspx"
       }
-    }
+    },
+    "school": "Istanbul Bilgi University"
   }
 }

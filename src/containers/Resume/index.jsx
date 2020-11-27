@@ -162,6 +162,55 @@ const Resume = () => {
         </ul>
       </div>
       <h6 className="techProjects-head">{t("resume.headers.head3")}</h6>
+      <div className="techProject-text">
+        <p>
+          <b>Re:Coded Bootcamp</b> (
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("resume.employment.company0.website")}
+            href="https://www.re-coded.com/"
+          >
+            Re:Coded
+          </a>{" "}
+          +{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("resume.employment.company0.website")}
+            href="https://flatironschool.com/"
+          >
+            Flatiron School
+          </a>{" "}
+          ) - 2020 {t("resume.employment.company0.country")}
+        </p>
+        <ul>
+          <li>{t("resume.list4.li0")}</li>
+          <li>{t("resume.list4.li1")}</li>
+        </ul>
+      </div>
+      <div className="techProject-text">
+        <p>
+          <b>{t("resume.school")}</b> - {t("resume.employment.company0.city")},{" "}
+          {t("resume.employment.company0.country")} - 2021
+        </p>
+        <ul>
+          <li>{t("resume.list5")}</li>
+        </ul>
+      </div>
+      <div className="techProject-text">
+        <p>
+          <b>{t("resume.school")}</b> - {t("resume.employment.company0.city")},{" "}
+          {t("resume.employment.company0.country")} - 2020
+        </p>
+        <ul>
+          <li>{t("resume.list6")}</li>
+        </ul>
+      </div>
+      <h6 className="techProjects-head">{t("resume.headers.head4")}</h6>
+      <p className="techSkill-text">
+        {t("navbar.languages.tr")}, {t("navbar.languages.en")}
+      </p>
     </div>
   );
 };
