@@ -136,6 +136,32 @@ const Resume = () => {
           <li>{t("resume.list2.li2")}</li>
         </ul>
       </div>
+      <h6 className="techProjects-head">{t("resume.headers.head1")}</h6>
+      <p className="techSkill-text">SQL, JavaScript, React, Java, Python</p>
+      <h6 className="techProjects-head">{t("resume.headers.head2")}</h6>
+      <div className="techProject-text">
+        <p>
+          <b>ECOSERV</b>, {t("resume.employment.company0.city")},{" "}
+          {t("resume.employment.company0.country")}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("resume.employment.company0.website")}
+            href="http://ecoserv.com.tr/tr/Default.aspx"
+          >
+            <GoLinkExternal />
+          </a>
+        </p>
+        <p>
+          {t("resume.employment.company0.position")},{" "}
+          <i>{t("resume.employment.company0.date")}</i>
+        </p>
+        <ul>
+          <li>{t("resume.list3.li0")}</li>
+          <li>{t("resume.list3.li1")}</li>
+        </ul>
+      </div>
+      <h6 className="techProjects-head">{t("resume.headers.head3")}</h6>
     </div>
   );
 };
