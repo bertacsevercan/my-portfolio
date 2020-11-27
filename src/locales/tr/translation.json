@@ -90,5 +90,10 @@
       "text7": "contact me",
       "text8": " and get to know me even more, please do!"
     }
+  },
+  "resume": {
+    "texts": {
+      "text0": " Full-stack web developer with a passion for problem-solving. With experience in Python, Java, SQL, JavaScript, and React and a background in Management Information Systems, I discovered web development through Re:Coded Web Development Bootcamp. I bring strong skills in team-building and creating solutions that help tech companies increase their values. Always open to learn new things and improve in every way possible."
+    }
   }
 }

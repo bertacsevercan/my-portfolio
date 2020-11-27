@@ -1,8 +1,11 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const Resume = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="resume">
       <h1>Bertaç Severcan</h1>
@@ -25,19 +28,11 @@ const Resume = () => {
             {" "}
             <FaLinkedinIn />{" "}
           </a>{" "}
-          | Istanbul/Turkey
+          | {t("contact.texts.text0")}
         </p>
       </div>
       <div className="bio-summary">
-        <p>
-          Full-stack web developer with a passion for problem-solving. With
-          experience in Python, Java, SQL, JavaScript, and React and a
-          background in Management Information Systems, I discovered web
-          development through Re:Coded Web Development Bootcamp. I bring strong
-          skills in team-building and creating solutions that help tech
-          companies increase their values. Always open to learn new things and
-          improve in every way possible.
-        </p>
+        <p>{t("resume.texts.text0")}</p>
       </div>
     </div>
   );
