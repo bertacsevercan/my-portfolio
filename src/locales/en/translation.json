@@ -141,10 +141,10 @@
     "employment": {
       "company0": {
         "city": "Istanbul",
-        "country": "Turkey",
+        "country": "Turkey ",
         "position": "IT Intern",
         "date": "January/2020 - February/2020",
-        "website": "http://ecoserv.com.tr/tr/Default.aspx"
+        "website": "Go to company website"
       }
     },
     "school": "Istanbul Bilgi University"

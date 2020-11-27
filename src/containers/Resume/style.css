@@ -1,10 +1,13 @@
 .resume {
+  padding: 3rem;
+}
+
+.resumeText-wrapper {
   border: tomato solid 5px;
   background: wheat;
   border-radius: 10px;
   padding: 1rem;
   box-shadow: black 2px 2px 2px;
-  margin: 3rem;
 }
 
 .contact-head {

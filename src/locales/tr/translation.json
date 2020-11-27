@@ -127,6 +127,26 @@
       "li0": "Developed a user interface using React and Ant Design for styling.",
       "li1": "Utilized Firebase Cloud Firestore to store data for the workout plans and workouts.",
       "li2": "Worked with a partner pair programming."
-    }
+    },
+    "list3": {
+      "li0": "Increased the efficiency by helping in the documentation of bills.",
+      "li1": "Tested the in-house information system and prepared a survey for the users to improve the system in the future."
+    },
+    "list4": {
+      "li0": " Front End Web Development (HTML, CSS, JavaScript, React)",
+      "li1": "5-month intense web development program run by Re:Coded with Flatiron School's curriculum."
+    },
+    "list5": "Degree: Management Information Systems",
+    "list6": "Degree: Teaching English as a Foreign Language",
+    "employment": {
+      "company0": {
+        "city": "Istanbul",
+        "country": "Turkey ",
+        "position": "IT Intern",
+        "date": "January/2020 - February/2020",
+        "website": "Go to company website"
+      }
+    },
+    "school": "Istanbul Bilgi University"
   }
 }
