@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { GoLinkExternal } from "react-icons/go";
 import "./style.css";
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +17,7 @@ const Resume = () => {
             href="https://github.com/bertacsevercan"
             rel="noreferrer"
             target="_blank"
+            title={t("contact.texts.text1")}
           >
             <FaGithub />
           </a>{" "}
@@ -24,6 +26,7 @@ const Resume = () => {
             rel="noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/bertac-severcan/"
+            title={t("contact.texts.text2")}
           >
             {" "}
             <FaLinkedinIn />{" "}
@@ -33,6 +36,40 @@ const Resume = () => {
       </div>
       <div className="bio-summary">
         <p>{t("resume.texts.text0")}</p>
+      </div>
+      <h6 className="techProjects-head">{t("resume.headers.head0")}</h6>
+      <div className="techProject-text">
+        <p>
+          <b>M.Y-Inventory</b> -{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link0")}
+            href="https://github.com/bertacsevercan/tina-zita.v2"
+          >
+            <FaGithub />
+          </a>{" "}
+          |{" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            title={t("projects.links.link1")}
+            href="https://my-inventory.netlify.app "
+          >
+            <GoLinkExternal />
+          </a>
+        </p>
+        <p>
+          <i>{t("resume.texts.text1")}</i>
+        </p>
+        <ul>
+          <li>{t("resume.list0.li0")}</li>
+          <li>{t("resume.list0.li1")}</li>
+          <li>{t("resume.list0.li2")}</li>
+          <li>{t("resume.list0.li3")}</li>
+          <li>{t("resume.list0.li4")}</li>
+          <li>{t("resume.list0.li5")}</li>
+        </ul>
       </div>
     </div>
   );

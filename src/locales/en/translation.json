@@ -93,7 +93,40 @@
   },
   "resume": {
     "texts": {
-      "text0": " Full-stack web developer with a passion for problem-solving. With experience in Python, Java, SQL, JavaScript, and React and a background in Management Information Systems, I discovered web development through Re:Coded Web Development Bootcamp. I bring strong skills in team-building and creating solutions that help tech companies increase their values. Always open to learn new things and improve in every way possible."
+      "text0": "Full-stack web developer with a passion for problem-solving. With experience in Python, Java, SQL, JavaScript, and React and a background in Management Information Systems, I discovered web development through Re:Coded Web Development Bootcamp. I bring strong skills in team-building and creating solutions that help tech companies increase their values. Always open to learn new things and improve in every way possible.",
+      "text1": "A 3’rd place award-winning inventory management system for restaurants to keep track of their inventory.",
+      "text2": "A food coupon donation website that connects the donors with the restaurants for the people in need.",
+      "text3": "A workout planner app which you can enter your weekly workouts and keep track of them."
+    },
+    "headers": {
+      "head0": "TECHNICAL PROJECTS",
+      "head1": "TECHNICAL SKILLS",
+      "head2": "EMPLOYMENT HISTORY",
+      "head3": "EDUCATION",
+      "head4": "LANGUAGES"
+    },
+    "list0": {
+      "li0": "Developed a user interface utilizing React and Ant Design for styling.",
+      "li1": "Employed Firebase Cloud Firestore to store and fetch data for inventory items, menus and orders.",
+      "li2": "Used YouTube’s embed video feature to show tutorial videos for our users about how to use the system.",
+      "li3": "Enabled Firebase Authentication to create user access for the restaurant manager.",
+      "li4": "Used i18next to translate the user interface for 3 different languages, such as English, Turkish and Arabic.",
+      "li5": "Worked with 4 other team members using SCRUM."
+    },
+    "list1": {
+      "li0": "Developed a user interface using React and Ant Design for styling.",
+      "li1": "Utilized Firebase Cloud Firestore and storage to store data and images for the restaurants and food coupons.",
+      "li2": "Implemented the WordPress API to educate users about world hunger.",
+      "li3": "Enabled ChartJS to show statistical data derived from the amount of sold coupons for a restaurant.",
+      "li4": "Used Firebase Authentication for restaurant user login flow.",
+      "li5": "Employed Stripe API to validate coupon donations as payment.",
+      "li6": "Worked with 3 other team members and a lead engineer using SCRUM.",
+      "li7": "Used i18next to translate the user interface for 3 different languages, such as English, Turkish and Arabic."
+    },
+    "list2": {
+      "li0": "Developed a user interface using React and Ant Design for styling.",
+      "li1": "Utilized Firebase Cloud Firestore to store data for the workout plans and workouts.",
+      "li2": "Worked with a partner pair programming."
     }
   }
 }

@@ -14,3 +14,17 @@
 .bio-summary {
   text-align: left;
 }
+
+.techProjects-head {
+  text-align: left;
+  padding: 0.5em;
+  background-color: lightgray;
+}
+
+.techProject-text {
+  text-align: left;
+}
+
+.techProject-text ul {
+  padding-left: 1rem;
+}
