@@ -35,3 +35,15 @@
 .techSkill-text {
   text-align: left;
 }
+
+@media only screen and (max-width: 576px) {
+  .resume {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .resumeText-wrapper {
+    font-size: x-large;
+  }
+}
