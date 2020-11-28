@@ -20,7 +20,7 @@
   text-shadow: 1px 1px gray;
 }
 
-.project-wrapper p {
+.project-wrapper .project-text {
   font-weight: 50;
   text-align: left;
 }
@@ -33,6 +33,14 @@
 .github-icon {
   padding-right: 0.5em;
   color: black;
+}
+
+.projects-bolds {
+  text-align: left;
+}
+
+.project-iframe {
+  padding: 1.5rem 0;
 }
 
 @media only screen and (max-width: 576px) {

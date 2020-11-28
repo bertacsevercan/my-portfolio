@@ -13,7 +13,7 @@ const Projects = () => {
     "Weekly-Workout-Planner",
     "Movie-Project",
     "Madlibs",
-    "Graduation-Invite-App"
+    "Graduation-Invite-App",
   ];
 
   const textList = [
@@ -22,6 +22,7 @@ const Projects = () => {
     t("projects.texts.text2"),
     t("projects.texts.text3"),
     t("projects.texts.text4"),
+    t("projects.texts.text5"),
   ];
 
   const repoList = [
@@ -30,7 +31,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/weekly-workout-planner",
     "https://github.com/bertacsevercan/Movie-Project",
     "https://github.com/bertacsevercan/Madlibz",
-    "https://github.com/bertacsevercan/graduation-invite-app"
+    "https://github.com/bertacsevercan/graduation-invite-app",
   ];
 
   const linkList = [
@@ -39,6 +40,24 @@ const Projects = () => {
     "https://weekly-workout-planner.netlify.app/",
     "https://bertacsevercan.github.io/Movie-Project/",
     "https://bertacsevercan.github.io/Madlibz/",
+  ];
+
+  const techList = [
+    "React, Firebase; Cloud Firestore, Auth, JavaScript, Netlify, Sentry.io, Ant Design, i18next, Git and GitHub",
+    "React, Firebase; Cloud Firestore, Auth and Storage, JavaScript, Netlify, Ant Design, i18next, Git and GitHub, Stripe API, Wordpress API, ChartJS, Figma, localstorage",
+    "React, Firebase; Cloud Firestore, JavaScript, Netlify, Ant Design",
+    "JavaScript, MovieDB API, Bootstrap, HTML and CSS",
+    "JavaScript, HTML, CSS, i18next, localstorage",
+    "TypeScript, ExpressJS, MySQL, XAMMP, REST API, React, JavaScript, TypeORM",
+  ];
+
+  const topicList = [
+    "SCRUM, React, Firebase",
+    "SCRUM, Unit Testing, Code Reviews, UI/UX Design",
+    "Pair-programming, React, Firebase, Ant Design",
+    "Pair-programming, Object oriented programming, Bootstrap",
+    "Vanilla JavaScript, HTML and CSS, i18next, Regular Expressions",
+    "REST API, Object relational mapping",
   ];
 
   const projectObjList = [];
@@ -50,6 +69,8 @@ const Projects = () => {
       text: textList[i],
       repo: repoList[i],
       link: linkList[i],
+      topic: topicList[i],
+      tech: techList[i],
     });
   }
 
@@ -69,18 +90,30 @@ const Projects = () => {
             >
               <GoMarkGithub />
             </a>
-            {project.link ? <a
-              className="external-icon"
-              target="_blank"
-              rel="noreferrer"
-              title={t("projects.links.link1")}
-              href={project.link}
-            >
-              <GoLinkExternal />
-            </a> : null}
+            {project.link ? (
+              <a
+                className="external-icon"
+                target="_blank"
+                rel="noreferrer"
+                title={t("projects.links.link1")}
+                href={project.link}
+              >
+                <GoLinkExternal />
+              </a>
+            ) : null}
           </h3>
-          {project.website}
-          <p>{project.text}</p>
+          <div className="project-iframe">{project.website}</div>
+          <p className="project-text">{project.text}</p>
+          <div className="projects-bolds">
+            <p>
+              <b>{t("projects.bolds.bold0")}</b>
+              {project.topic}
+            </p>
+            <p>
+              <b>{t("projects.bolds.bold1")}</b>
+              {project.tech}
+            </p>
+          </div>
         </div>
       ))}
     </div>
