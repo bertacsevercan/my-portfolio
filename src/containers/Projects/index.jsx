@@ -13,6 +13,7 @@ const Projects = () => {
     "Weekly-Workout-Planner",
     "Movie-Project",
     "Madlibs",
+    "Graduation-Invite-App"
   ];
 
   const textList = [
@@ -29,6 +30,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/weekly-workout-planner",
     "https://github.com/bertacsevercan/Movie-Project",
     "https://github.com/bertacsevercan/Madlibz",
+    "https://github.com/bertacsevercan/graduation-invite-app"
   ];
 
   const linkList = [
@@ -67,7 +69,7 @@ const Projects = () => {
             >
               <GoMarkGithub />
             </a>
-            <a
+            {project.link ? <a
               className="external-icon"
               target="_blank"
               rel="noreferrer"
@@ -75,7 +77,7 @@ const Projects = () => {
               href={project.link}
             >
               <GoLinkExternal />
-            </a>
+            </a> : null}
           </h3>
           {project.website}
           <p>{project.text}</p>

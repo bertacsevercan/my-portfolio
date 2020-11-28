@@ -1,4 +1,5 @@
 import React from "react";
+import inviteApp from "../../../images/inviteApp.gif";
 import "./style.css";
 
 const projectList = [
@@ -32,6 +33,6 @@ const projectList = [
     width="80%"
     title="Madlibz"
   ></iframe>,
+  <iframe title="Grad-Invite" src={inviteApp} width="80%" height="500" frameBorder="0"></iframe>
 ];
-
 export default projectList;
