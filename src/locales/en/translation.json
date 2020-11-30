@@ -37,7 +37,8 @@
       "text2": "The purpose of this project was to create a board app which is similar to a to-do app. My partner and I decided to do a weekly-workout-planning app. In this project, I've used ReactJS for the first time and it was such a good practice for me to understand React. I've also used Ant Design to style the application and used Google's Firebase to store user data.",
       "text3": "This project was similar to the IMDb website which you can search for movies, actors and see popular movies, tv shows etc. In this project, my partner and I've used object-oriented programming and MovieDb API to fetch the necessary movie data. Also, I used vanilla JavaScript, HTML and Bootstrap with CSS for styling.",
       "text4": "The purpose of the website is to play mad libs. It also has Turkish and English language support. It can save your words by using local storage.  For the first time, I did pair programming and worked on a project with a partner and it was my first ever vanilla JavaScript, HTML, CSS project. Also, it was the first time that I learned about and worked with regular expressions, i18next library, local storage. The style of the project was purely CSS. I didn't use any frameworks for styling.",
-      "text5": "This is a simple full stack project to practice Express js and REST API with TypeORM. The app simply invites people to my graduation from the Re:Coded Bootcamp."
+      "text5": "This is a simple full stack project to practice Express js and REST API with TypeORM. The app simply invites people to my graduation from the Re:Coded Bootcamp.",
+      "text6": "This is a JetBrains Academy project which contains various matrix operations including addition, multiplication, finding the determinant, and dealing with inverse matrices."
     },
     "links": {
       "link0": "Github repository",

@@ -1,5 +1,6 @@
 import React from "react";
 import inviteApp from "../../../images/inviteApp.gif";
+import numericMatrixCalcDemo from "../../../images/numericMatrixCalcDemo.gif";
 import "./style.css";
 
 const projectList = [
@@ -36,6 +37,13 @@ const projectList = [
   <iframe
     title="Grad-Invite"
     src={inviteApp}
+    width="80%"
+    height="500"
+    frameBorder="0"
+  ></iframe>,
+  <iframe
+    title="Matrix-Calculator"
+    src={numericMatrixCalcDemo}
     width="80%"
     height="500"
     frameBorder="0"

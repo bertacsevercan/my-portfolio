@@ -14,6 +14,7 @@ const Projects = () => {
     "Movie-Project",
     "Madlibs",
     "Graduation-Invite-App",
+    "Numeric-Matrix-Processor",
   ];
 
   const textList = [
@@ -23,6 +24,7 @@ const Projects = () => {
     t("projects.texts.text3"),
     t("projects.texts.text4"),
     t("projects.texts.text5"),
+    t("projects.texts.text6"),
   ];
 
   const repoList = [
@@ -32,6 +34,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Movie-Project",
     "https://github.com/bertacsevercan/Madlibz",
     "https://github.com/bertacsevercan/graduation-invite-app",
+    "https://github.com/bertacsevercan/Numeric-Matrix-Processor",
   ];
 
   const linkList = [
@@ -49,6 +52,7 @@ const Projects = () => {
     "JavaScript, MovieDB API, Bootstrap, HTML and CSS",
     "JavaScript, HTML, CSS, i18next, localstorage",
     "TypeScript, ExpressJS, MySQL, XAMMP, REST API, React, JavaScript, TypeORM",
+    "Python",
   ];
 
   const topicList = [
@@ -58,6 +62,7 @@ const Projects = () => {
     "Pair-programming, Object oriented programming, Bootstrap",
     "Vanilla JavaScript, HTML and CSS, i18next, Regular Expressions",
     "REST API, Object relational mapping",
+    "Matrices, Math library, Nested lists, Recursion",
   ];
 
   const projectObjList = [];
