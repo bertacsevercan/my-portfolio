@@ -111,7 +111,7 @@ const Projects = () => {
     "Python, HTTP requests, HTML",
     "Python, Object oriented programming",
     "Python, Control statements",
-    "Java, JDBC, MySQL, Java Swing UI",
+    "Java, JDBC, MySQL, SQL, Java Swing UI",
   ];
 
   const otherProjectList = [];
