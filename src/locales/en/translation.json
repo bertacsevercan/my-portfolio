@@ -30,7 +30,10 @@
     }
   },
   "projects": {
-    "title": "My projects",
+    "titles": {
+      "title0": "My projects",
+      "title1": "Other Projects"
+    },
     "texts": {
       "text0": "With this application my team and I won the 3'rd place in Impact Hub Innovation Hackathon 2020. At the moment you can't reach this website without an authorized account. As a team we used SCRUM for the first time to develop our application rapidly in 3 weeks. The application's purpose was to manage the inventory of a restaurant (Tina Zita). Our goal was to make M.Y-Inventory easy to use and we also added an enhanced mobile user experience for  different possible use cases. The application also supports three different languages; English, Turkish and Arabic.",
       "text1": "The purpose of this website was to collect food coupon donations for the people in need. This project was the closest one to a real-life company project because we had a lead-engineer and we used SCRUM for development. We used ReactJS for development, Firebase to store data and Ant Design for styling. We've used Stripe API to handle payments, ChartJS for graphs, Wordpress API for our blog, i18next for language support. We've also worked with a UI/UX designer for our designs and used Figma.",
@@ -41,7 +44,9 @@
       "text6": "This is a JetBrains Academy project which contains various matrix operations including addition, multiplication, finding the determinant, and dealing with inverse matrices.",
       "text7": "This is a JetBrains Academy project which contains a financial loan-credit calculator. The first stages of the project was getting input from the user and was running from the console. At the last stage, it switched to a CLI program and ran from the terminal.",
       "text8": "This is a JetBrains Academy project and it's a simple game of hangman.",
-      "text9": "This is a JetBrains Academy project and it's a 2-player game of tic tac toe."
+      "text9": "This is a JetBrains Academy project and it's a 2-player game of tic tac toe.",
+      "text10": "This is a JetBrains Academy project and it's a game of rock paper scissors.",
+      "text11": "This is a JetBrains Academy project and In this project, I have created a smart calculator which the user can do basic operations with an order of precedence. It's also smart enough to remember previous calculations."
     },
     "links": {
       "link0": "Github repository",

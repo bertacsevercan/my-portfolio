@@ -43,6 +43,14 @@
   padding: 1.5rem 0;
 }
 
+.otherProjects {
+  padding: 1rem 0;
+}
+
+.otherProjects ul {
+  text-align: left;
+}
+
 @media only screen and (max-width: 576px) {
   .projects {
     padding: 1rem;

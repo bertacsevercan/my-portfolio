@@ -17,7 +17,9 @@ const Projects = () => {
     "Numeric-Matrix-Processor",
     "Loan-Credit-Calculator",
     "Hangman",
-    "Tic-Tac-Toe"
+    "Tic-Tac-Toe",
+    "Rock-Paper-Scissors",
+    "Smart-Calculator",
   ];
 
   const textList = [
@@ -31,8 +33,8 @@ const Projects = () => {
     t("projects.texts.text7"),
     t("projects.texts.text8"),
     t("projects.texts.text9"),
-
-
+    t("projects.texts.text10"),
+    t("projects.texts.text11"),
   ];
 
   const repoList = [
@@ -46,6 +48,8 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Credit-Calculator",
     "https://github.com/bertacsevercan/Hangman",
     "https://github.com/bertacsevercan/Tic-Tac-Toe",
+    "https://github.com/bertacsevercan/Rock-Paper-Scissors",
+    "https://github.com/bertacsevercan/Smart-Calculator",
   ];
 
   const linkList = [
@@ -66,7 +70,9 @@ const Projects = () => {
     "Python",
     "Python, Argparse, Load module",
     "Python, Load module, Random module",
-    "Python"
+    "Python",
+    "Python, Random module",
+    "Python, Deque, Load module",
   ];
 
   const topicList = [
@@ -79,9 +85,36 @@ const Projects = () => {
     "Matrices, Math library, Nested lists, Recursion",
     "Argparse module, Load module",
     "Functions, loops, lists and other data types, Random and Load library",
-    "Error handling, Nested lists"
+    "Error handling, Nested lists",
+    "Random module, Arrays, Formatted strings",
+    "Stack, Queue, Deque, Dictionaries",
   ];
 
+  const otherProjectsRepos = [
+    "https://github.com/bertacsevercan/Simple-Banking-System",
+    "https://github.com/bertacsevercan/Text-Based-Browser",
+    "https://github.com/bertacsevercan/Coffee-Machine",
+    "https://github.com/bertacsevercan/Simple-Chat-Bot",
+    "https://github.com/bertacsevercan/restaurant-res-system",
+  ];
+
+  const otherProjectsNames = [
+    "Simple-Banking-System",
+    "Text-Based-Browser",
+    "Coffee-Machine",
+    "Simple-Chat-Bot",
+    "Full-Stack Restaurant Reservation App",
+  ];
+
+  const otherProjectsTech = [
+    "Python, Luhn algorithm, SQL, SQLite",
+    "Python, HTTP requests, HTML",
+    "Python, Object oriented programming",
+    "Python, Control statements",
+    "Java, JDBC, MySQL, Java Swing UI",
+  ];
+
+  const otherProjectList = [];
   const projectObjList = [];
 
   for (let i = 0; i < projectList.length; i++) {
@@ -96,9 +129,17 @@ const Projects = () => {
     });
   }
 
+  for (let i = 0; i < otherProjectsTech.length; i++) {
+    otherProjectList.push({
+      repo: otherProjectsRepos[i],
+      name: otherProjectsNames[i],
+      tech: otherProjectsTech[i],
+    });
+  }
+
   return (
     <div className="projects">
-      <h1 className="title">{t("projects.title")}</h1>
+      <h1 className="title">{t("projects.titles.title0")}</h1>
       {projectObjList.map((project) => (
         <div className="project-wrapper">
           <h1>{project.title}</h1>
@@ -138,6 +179,27 @@ const Projects = () => {
           </div>
         </div>
       ))}
+      <div className="project-wrapper">
+        <div className="otherProjects">
+          <h1>{t("projects.titles.title1")}</h1>
+          <ul>
+            {otherProjectList.map((project) => (
+              <li>
+                <a
+                  className="github-icon"
+                  target="_blank"
+                  rel="noreferrer"
+                  title={t("projects.links.link0")}
+                  href={project.repo}
+                >
+                  <b>{project.name}</b> <GoMarkGithub />
+                </a>{" "}
+                {t("projects.bolds.bold1")} {project.tech}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
