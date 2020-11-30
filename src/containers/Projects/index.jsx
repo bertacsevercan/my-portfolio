@@ -15,6 +15,9 @@ const Projects = () => {
     "Madlibs",
     "Graduation-Invite-App",
     "Numeric-Matrix-Processor",
+    "Loan-Credit-Calculator",
+    "Hangman",
+    "Tic-Tac-Toe"
   ];
 
   const textList = [
@@ -25,6 +28,11 @@ const Projects = () => {
     t("projects.texts.text4"),
     t("projects.texts.text5"),
     t("projects.texts.text6"),
+    t("projects.texts.text7"),
+    t("projects.texts.text8"),
+    t("projects.texts.text9"),
+
+
   ];
 
   const repoList = [
@@ -35,6 +43,9 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Madlibz",
     "https://github.com/bertacsevercan/graduation-invite-app",
     "https://github.com/bertacsevercan/Numeric-Matrix-Processor",
+    "https://github.com/bertacsevercan/Credit-Calculator",
+    "https://github.com/bertacsevercan/Hangman",
+    "https://github.com/bertacsevercan/Tic-Tac-Toe",
   ];
 
   const linkList = [
@@ -53,6 +64,9 @@ const Projects = () => {
     "JavaScript, HTML, CSS, i18next, localstorage",
     "TypeScript, ExpressJS, MySQL, XAMMP, REST API, React, JavaScript, TypeORM",
     "Python",
+    "Python, Argparse, Load module",
+    "Python, Load module, Random module",
+    "Python"
   ];
 
   const topicList = [
@@ -63,6 +77,9 @@ const Projects = () => {
     "Vanilla JavaScript, HTML and CSS, i18next, Regular Expressions",
     "REST API, Object relational mapping",
     "Matrices, Math library, Nested lists, Recursion",
+    "Argparse module, Load module",
+    "Functions, loops, lists and other data types, Random and Load library",
+    "Error handling, Nested lists"
   ];
 
   const projectObjList = [];

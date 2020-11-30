@@ -1,6 +1,9 @@
 import React from "react";
 import inviteApp from "../../../images/inviteApp.gif";
 import numericMatrixCalcDemo from "../../../images/numericMatrixCalcDemo.gif";
+import loanCalcDemo from "../../../images/loanCalcDemo.gif";
+import hangmanDemo from "../../../images/hangmanDemo.gif";
+import ticTacToeDemo from "../../../images/ticTacToeDemo.gif";
 import "./style.css";
 
 const projectList = [
@@ -48,5 +51,26 @@ const projectList = [
     height="500"
     frameBorder="0"
   ></iframe>,
+  <iframe
+  title="Credit-Calculator"
+  src={loanCalcDemo}
+  width="80%"
+  height="500"
+  frameBorder="0"
+></iframe>,
+ <iframe
+ title="Hangman"
+ src={hangmanDemo}
+ width="80%"
+ height="500"
+ frameBorder="0"
+></iframe>,
+ <iframe
+ title="Tic-Tac-Toe"
+ src={ticTacToeDemo}
+ width="80%"
+ height="500"
+ frameBorder="0"
+></iframe>,
 ];
 export default projectList;
