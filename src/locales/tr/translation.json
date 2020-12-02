@@ -53,8 +53,8 @@
       "link1": "Sayfayı ayrı bir pencerede açın"
     },
     "bolds": {
-      "bold0": "Topics practised: ",
-      "bold1": "Technologies used: "
+      "bold0": "Çalıştığım konular: ",
+      "bold1": "Kullanılan teknolojiler: "
     }
   },
   "contact": {
@@ -106,61 +106,62 @@
     }
   },
   "resume": {
-    "texts": {
-      "text0": "Full-stack web developer with a passion for problem-solving. With experience in Python, Java, SQL, JavaScript, and React and a background in Management Information Systems, I discovered web development through Re:Coded Web Development Bootcamp. I bring strong skills in team-building and creating solutions that help tech companies increase their values. Always open to learn new things and improve in every way possible.",
-      "text1": "A 3’rd place award-winning inventory management system for restaurants to keep track of their inventory.",
-      "text2": "A food coupon donation website that connects the donors with the restaurants for the people in need.",
-      "text3": "A workout planner app which you can enter your weekly workouts and keep track of them."
+    "texts": {  
+      "text0": "Problem çözme tutkusuna sahip full-stack web geliştiricisi. Python, Java, SQL, JavaScript, and React gibi dillerde deneyim sahibi ve Yönetim Bilgi Sistemlerinde bir geçmişe sahip olarak web geliştirmeyi Re:Coded Web Development Bootcamp aracılığıyla keşfettim. Ekip çalışması ve teknoloji şirketlerinin değerlerini artırmalarına yardımcı olacak çözümler oluşturma konusunda güçlü beceriler sunuyorum. Yeni şeyler öğrenmeye ve kendimi her şekilde geliştirmeye daima açığım.",
+      "text1": "Üçüncülük ödülü kazanmış, restoranların envanterlerini kontrol edebilmeleri için envanter yönetim sistemi.",                                                                       
+      "text2": "İthiyacı olanlara yardım amaçlı bağışçılar ve restoranları bir araya getiren, yemek kuponu bağış sitesi.",
+      "text3": "Haftalık idmanlarınızı girebildiğiniz ve kontrol edebildiğiniz, haftalık idman planlama uygulaması."
     },
     "headers": {
-      "head0": "TECHNICAL PROJECTS",
-      "head1": "TECHNICAL SKILLS",
-      "head2": "EMPLOYMENT HISTORY",
-      "head3": "EDUCATION",
-      "head4": "LANGUAGES"
+      "head0": "TEKNİK PROJELER",
+      "head1": "TEKNİK BECERİLER",
+      "head2": "İŞ DENEYİMİ",
+      "head3": "EĞİTİM",
+      "head4": "DİLLER"
     },
     "list0": {
-      "li0": "Developed a user interface utilizing React and Ant Design for styling.",
-      "li1": "Employed Firebase Cloud Firestore to store and fetch data for inventory items, menus and orders.",
-      "li2": "Used YouTube’s embed video feature to show tutorial videos for our users about how to use the system.",
-      "li3": "Enabled Firebase Authentication to create user access for the restaurant manager.",
-      "li4": "Used i18next to translate the user interface for 3 different languages, such as English, Turkish and Arabic.",
-      "li5": "Worked with 4 other team members using SCRUM."
+      
+      "li0": "Stil için Ant Design ve React kullanarak, kullanıcı arayüzü geliştirildi.",
+      "li1": "Envanter öğeleri, menüler ve siparişler için verileri depolamak için Firebase Cloud Firestore'u kullanıldı.",
+      "li2": "Kullanıcılarımıza sistemin nasıl kullanılacağıyla ilgili eğitici videolar göstermek için YouTube’un video yerleştirme özelliği kullanıldı.",
+      "li3": "Restoran yöneticisi için kullanıcı erişimi oluşturmak üzere Firebase Authentication etkinleştirildi.",
+      "li4": "Kullanıcı arayüzünü İngilizce, Türkçe ve Arapça gibi 3 farklı dile çevirmek için i18next kullanıldı.",
+      "li5": "SCRUM metodu kullanarak 4 diğer ekip üyesiyle birlikte çalışıldı."
     },
     "list1": {
-      "li0": "Developed a user interface using React and Ant Design for styling.",
-      "li1": "Utilized Firebase Cloud Firestore and storage to store data and images for the restaurants and food coupons.",
-      "li2": "Implemented the WordPress API to educate users about world hunger.",
-      "li3": "Enabled ChartJS to show statistical data derived from the amount of sold coupons for a restaurant.",
-      "li4": "Used Firebase Authentication for restaurant user login flow.",
-      "li5": "Employed Stripe API to validate coupon donations as payment.",
-      "li6": "Worked with 3 other team members and a lead engineer using SCRUM.",
-      "li7": "Used i18next to translate the user interface for 3 different languages, such as English, Turkish and Arabic."
+      "li0": "Stil için Ant Design ve React kullanarak, kullanıcı arayüzü geliştirildi.",
+      "li1": "Restoranlar ve yemek kuponları için verileri ve görüntüleri depolamak için Firebase Cloud Firestore ve Storage'dan yararlanıldı.",
+      "li2": "Kullanıcıları dünyadaki açlıkla ilgili eğitmek için WordPress API uygulandı.",
+      "li3": "ChartJS bir restoran için satılan kupon miktarından elde edilen istatistiksel verileri göstermek için etkinleştirildi.",
+      "li4": "Restoran kullanıcı girişi akışı için Firebase Authentication kullanıldı.",
+      "li5": "Kupon bağışlarını ödeme olarak doğrulamak için Stripe API kullanıldı.",
+      "li6": "SCRUM metodu kullanarak 3 diğer ekip üyesi ve bir baş mühendis ile birlikte çalışıldı.",
+      "li7": "Kullanıcı arayüzünü İngilizce, Türkçe ve Arapça gibi 3 farklı dile çevirmek için i18next kullanıldı."
     },
     "list2": {
-      "li0": "Developed a user interface using React and Ant Design for styling.",
-      "li1": "Utilized Firebase Cloud Firestore to store data for the workout plans and workouts.",
-      "li2": "Worked with a partner pair programming."
+      "li0": "Stil için Ant Design ve React kullanarak, kullanıcı arayüzü geliştirildi.",
+      "li1": "Antrenman planları ve antrenmanlara ilişkin verileri depolamak için Firebase Cloud Firestore kullanıldı.",
+      "li2": "Pair programming kullanarak bir takım üyesi ile çalışıldı."
     },
     "list3": {
-      "li0": "Increased the efficiency by helping in the documentation of bills.",
-      "li1": "Tested the in-house information system and prepared a survey for the users to improve the system in the future."
+      "li0": "Faturaların dokümantasyonuna yardımcı olarak verimlilik arttırıldı.",
+      "li1": "Kurum içi bilgi sistemi test edildi ve gelecekte sistemi iyileştirmek için kullanıcılara anket hazırlandı."
     },
     "list4": {
-      "li0": " Front End Web Development (HTML, CSS, JavaScript, React)",
-      "li1": "5-month intense web development program run by Re:Coded with Flatiron School's curriculum."
+      "li0": "Front End Web Development (HTML, CSS, JavaScript, React)",
+      "li1": "Flatiron School ders planı kullanan Re:Coded tarafından verilen 5 aylık yoğun web geliştirme programı."
     },
-    "list5": "Degree: Management Information Systems",
-    "list6": "Degree: Teaching English as a Foreign Language",
+    "list5": "Bölüm: Yönetim Bilişim Sistemleri",
+    "list6": "Bölüm: İngilizce Öğretmenliği",
     "employment": {
       "company0": {
-        "city": "Istanbul",
-        "country": "Turkey ",
-        "position": "IT Intern",
-        "date": "January/2020 - February/2020",
-        "website": "Go to company website"
+        "city": "İstanbul",
+        "country": "Türkiye ",
+        "position": "IT Stajyeri",
+        "date": "Ocak/2020 - Şubat/2020",
+        "website": "Şirket websitesine git"
       }
     },
-    "school": "Istanbul Bilgi University"
+    "school": "İstanbul Bilgi Üniversitesi"
   }
 }
