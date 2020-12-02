@@ -10,13 +10,13 @@ import "./style.css";
 
 const projectList = [
   <iframe
-    src="https://my-inventory.netlify.app/"
+    src="https://my-inventory-demo.netlify.app/"
     height="500"
     width="80%"
     title="M.Y-Inventory"
   ></iframe>,
   <iframe
-    src="https://feed-the-needy.netlify.app"
+    src="https://itsonus.netlify.app/"
     height="500"
     width="80%"
     title="It's On Us"
