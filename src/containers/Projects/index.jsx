@@ -53,7 +53,7 @@ const Projects = () => {
   ];
 
   const linkList = [
-    "https://my-inventory.netlify.app/",
+    "https://my-inventory-demo.netlify.app/",
     "https://itsonus.netlify.app/",
     "https://weekly-workout-planner.netlify.app/",
     "https://bertacsevercan.github.io/Movie-Project/",
