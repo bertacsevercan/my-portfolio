@@ -5,7 +5,7 @@
       "title1": "Benim adım Bertaç Severcan,"
     },
     "texts": {
-      "text0": "Ben teknoloji ve programlamayla ilgilenen, bir junior yazılım/web geliştiricisiyim.",
+      "text0": "Ben teknoloji ve programlamayla ilgilenen, bir yazılım/web geliştiricisiyim.",
       "text1": "İstanbul Bilgi Üniversitesi Yönetim Bilişim Sistemleri ve İngilizce Öğretmenliği bölümleri (ÇAP) mezunuyum ve 6 aylık Re:Coded Web Geliştirme Kampından da başarıyla mezun oldum.",
       "text2": "Python, Java, Javascript, HTML, CSS, SQL gibi programlama dillerinde deneyim sahibiyim ve hem backend hem de frontend yazılım geliştirme ile ilgileniyorum.",
       "text3": "Her zaman yenilikler peşinde olmayı ve yeni şeyler öğrenmeyi seviyorum."
@@ -91,18 +91,18 @@
     "title": "Merhaba",
     "headers": {
       "head0": "Benim adım Bertaç Severcan ve kendimi size tanıtmak isterim:",
-      "head1": "TL;DR: I'm a junior software/web developer who is interested in both backend and frontend and I'm looking for work, hire me!"
+      "head1": "Kısaca: Hem backend hem de frontend ile ilgilenen bir yazılım/web geliştiricisiyim ve iş arıyorum, beni işe alın!"
     },
     "texts": {
-      "text0": "I am a junior software/web developer from Istanbul, Turkey. I studied Management Information Systems and Teaching English As a Foreign Language(Double Majors) at Istanbul Bilgi University. I also attended and graduated from Re: Coded Web development Bootcamp(uses Flatiron School's curriculum) where I gained my skills in front-end web development.",
-      "text1": "Before the Bootcamp, I started programming in Java at Bilgi University. Then I learned about SQL and RDBMS there. To improve my skills in programming, I started to learn Python myself and loved it. When I started the Re: Coded Bootcamp, I didn't know about web development and that was where I first learned about it. We started with HTML and CSS, then moved on with JavaScript. Lastly, we finished with ReactJS and I also got the chance to learn about SCRUM and experience it first hand in the capstone project.",
-      "text2": "In my time within the Bootcamp, I've learned many new skills and knowledge. I've learned about Git and VCS and how important it was for my career. Also, I've worked on many projects with different partners during this time. I even formed a group of developers from the Bootcamp and attended a hackathon where we got 3'rd overall with our web-app: M.Y-Inventory. Also, right before I joined the Bootcamp, I formed my online study-group called 'Çaylak Kodcular' (Rookie Coders). It was a Discord channel open to anyone who wanted to learn about programming. From this experience, I've both gained a lot and I tried to give back too.",
-      "text3": "The reason I fell in love with programming is how creative it can be, it allowed me to build something from nothing. I also realized when I started programming, I love solving problems. One time, I was working on a project, I spent my entire day working on solving the problem I had and I didn't even get bored and that's when I realized I can do this without hesitation.",
-      "text4": "I'm interested in all sorts of development; mobile, web, software, video-game. But one of my goals is to build my own video-game someday. As you can easily guess from this, I love playing video-games but mostly story-driven ones.",
-      "text5": "The other thing I love as much as programming is music. I play three different instruments; piano, drums, guitar and I'd like to combine my love for programming and music one day. Oh, and I also do CrossFit and I have a Level-1 trainer certificate in CrossFit. But I don't want to be that guy who talks about CrossFit all the time so I'll stop ",
-      "text6": "So, yeah, this is me! If you want to",
-      "text7": "contact me",
-      "text8": " and get to know me even more, please do!"
+      "text0": "İstanbul, Türkiye'de bir yazılım/web geliştiricisiyim. İstanbul Bilgi Üniversitesi'nde Yönetim Bilişim Sistemleri ve İngilizce öğretmenliği (Çift Anadal) okudum. Ayrıca, web geliştirme becerilerimi kazandığım Re:Coded Web geliştirme Bootcamp'a (Flatiron School müfredatını kullanır) katıldım ve mezun oldum.",
+      "text1": "Bootcamp'tan önce Bilgi Üniversitesi'nde Java ile programlamaya başladım. Sonra orada SQL ve RDBMS'yi öğrendim. Programlama becerilerimi geliştirmek için Python'u kendim öğrenmeye başladım ve Python'u çok sevdim. Re:Coded Bootcamp'ı başladığımda, web geliştirmeyi bilmiyordum ve onu ilk orada öğrendim. İlk olarak HTML ve CSS ile başladık, ardından JavaScript ile devam ettik. Son olarak, ReactJS ile bitirdik ve kamp sonunda ki bitirme projesinde SCRUM metodunu ilk elden deneyimleme şansını yakaladım.",
+      "text2": "Eğitim kampında geçirdiğim süre içinde birçok yeni beceri ve bilgi öğrendim. Git ve VCS'in kariyerim için ne kadar önemli olduğunu gördüm. Ayrıca bu süre zarfında farklı takım arkadaşlarıyla birçok proje üzerinde çalıştım. Hatta Bootcamp'tan bir grup geliştirici ile bir takım kurdum ve web uygulamamız M.Y-Inventory ile 3'üncülük ödülünü kazandığımız bir hackathon'a katıldım. Ayrıca, Bootcamp'a katılmadan hemen önce, 'Çaylak Kodcular' (Rookie Coders) adlı çevrimiçi çalışma grubumu kurdum. Programlama hakkında bilgi edinmek isteyen herkese açık bir Discord kanalıydı. Bu deneyimden hem çok şey kazandım hem de insanlara yardım etmeye çalıştım.",
+      "text3": "Programlamayı çok sevmemin nedeni, ne kadar yaratıcılığa izin vermesidir, fikirlerimi gerçeğe dönüştürmeme izin vermesidir. Ayrıca programlamaya başladığımda problem çözmeyi sevdiğimi de fark ettim. Bir keresinde bir proje üzerinde çalışıyordum, bütün günümü yaşadığım problemi çözmek için çalışarak geçirdim. Bu durumdan hiç sıkılmadım ve o zaman bunu tereddüt etmeden hayatım boyunca yapabileceğimi anladım.",
+      "text4": "Her türlü yazılım geliştirmeyle ilgileniyorum; mobil, web, yazılım, video oyunu. Ama hedeflerimden biri bir gün kendi video oyunumu yapmak. Buradan da kolayca tahmin edebileceğiniz gibi, video oyunları oynamayı seviyorum ama çoğunlukla hikaye odaklı olanları.",
+      "text5": "Programlama kadar sevdiğim bir diğer şey de müzik. Üç farklı enstrüman çalıyorum; piyano, davul, gitar ve bir gün programlama ve müzik sevgimi birleştirmek istiyorum. Ayrıca CrossFit yapıyorum ve CrossFit'te Seviye-1 eğitmen sertifikam var. Ama sürekli CrossFit hakkında konuşan o adam olmak istemiyorum, bu yüzden duracağım ",
+      "text6": "Ve evet, işte bu benim! Eğer benimle",
+      "text7": "ileşime geçmek",
+      "text8": "ve beni daha fazla tanımak isterseniz lütfen buyurun!"
     }
   },
   "resume": {
