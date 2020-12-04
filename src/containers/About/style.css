@@ -12,7 +12,7 @@
 }
 
 .about-text-wrapper p {
-  width: 80%;
+  width: 70%;
 }
 
 .about-text-wrapper .first-paragraph {
@@ -27,6 +27,17 @@
 
 .about-text-wrapper h1 {
   text-shadow: 1px 1px gray;
+}
+
+@media only screen and (min-width: 1910px) {
+  .img-wrapper {
+    max-width: 100%;
+    margin-left: 30%;
+  }
+
+  .about-text-wrapper {
+    font-size: x-large;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 576px) {
