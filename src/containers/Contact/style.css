@@ -44,6 +44,18 @@
   text-shadow: 1px 1px gray;
 }
 
+.contact-info-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hey {
+  align-self: center;
+  max-width: 100%;
+  max-height: auto;
+}
+
 @media only screen and (max-width: 1024px) {
   .contact {
     flex-direction: column;
@@ -70,5 +82,9 @@
 @media only screen and (max-width: 576px) {
   .contact {
     padding: 1rem;
+  }
+
+  .hey {
+    padding-top: 2rem;
   }
 }

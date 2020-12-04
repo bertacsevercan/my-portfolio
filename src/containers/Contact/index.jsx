@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 import {
   FaMapMarkedAlt,
   FaPhoneAlt,
@@ -11,6 +12,7 @@ import {
   FaLinkedinIn,
   FaLevelDownAlt,
 } from "react-icons/fa";
+import hey from "../../images/hey.png";
 import "./style.css";
 import { useTranslation } from "react-i18next";
 
@@ -71,47 +73,52 @@ const Contact = () => {
           {t("contact.titles.title1")} <FaAddressCard />{" "}
         </h1>
         <br />
-        <h5>
-          {" "}
-          <FaMapMarkedAlt /> {t("contact.headers.head0")}
-        </h5>
-        <p>{t("contact.texts.text0")}</p>
-        <br />
-        <h5>
-          {" "}
-          <FaPhoneAlt /> {t("contact.headers.head1")}
-        </h5>
-        <p>+905433279325</p>
-        <br />
-        <h5>
-          {" "}
-          <FaMailBulk /> {t("contact.headers.head2")}
-        </h5>
-        <p>bertac.severcan@gmail.com</p>
-        <br />
-        <h5>
-          {" "}
-          <FaUserFriends /> {t("contact.headers.head3")}
-        </h5>
-        <div className="social-links">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            title={t("contact.texts.text1")}
-            href="https://github.com/bertacsevercan"
-          >
-            {" "}
-            <FaGithub className="social-icons" />{" "}
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            title={t("contact.texts.text2")}
-            href="https://www.linkedin.com/in/bertac-severcan/"
-          >
-            {" "}
-            <FaLinkedinIn className="social-icons" />{" "}
-          </a>
+        <div className="contact-info-flex">
+          <div className="contact-info-text">
+            <h5>
+              {" "}
+              <FaMapMarkedAlt /> {t("contact.headers.head0")}
+            </h5>
+            <p>{t("contact.texts.text0")}</p>
+            <br />
+            <h5>
+              {" "}
+              <FaPhoneAlt /> {t("contact.headers.head1")}
+            </h5>
+            <p>+905433279325</p>
+            <br />
+            <h5>
+              {" "}
+              <FaMailBulk /> {t("contact.headers.head2")}
+            </h5>
+            <p>bertac.severcan@gmail.com</p>
+            <br />
+            <h5>
+              {" "}
+              <FaUserFriends /> {t("contact.headers.head3")}
+            </h5>
+            <div className="social-links">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                title={t("contact.texts.text1")}
+                href="https://github.com/bertacsevercan"
+              >
+                {" "}
+                <FaGithub className="social-icons" />{" "}
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                title={t("contact.texts.text2")}
+                href="https://www.linkedin.com/in/bertac-severcan/"
+              >
+                {" "}
+                <FaLinkedinIn className="social-icons" />{" "}
+              </a>
+            </div>
+          </div>
+          <Image className="hey" src={hey} width="250" />
         </div>
       </div>
     </div>
