@@ -21,7 +21,7 @@ const About = () => {
         <div className="img-wrapper">
           <Image className="img" width="30%" roundedCircle src={pp} />
         </div>
-        <p>{t("about.texts.text0")}</p>
+        <p className="first-paragraph">{t("about.texts.text0")}</p>
         <p>{t("about.texts.text1")}</p>
         <p>{t("about.texts.text2")}</p>
         <p>{t("about.texts.text3")}</p>

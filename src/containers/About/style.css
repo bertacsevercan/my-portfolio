@@ -13,6 +13,9 @@
 
 .about-text-wrapper p {
   width: 80%;
+}
+
+.about-text-wrapper .first-paragraph {
   text-indent: 2rem;
 }
 
