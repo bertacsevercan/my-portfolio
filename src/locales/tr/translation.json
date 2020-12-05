@@ -162,5 +162,9 @@
       }
     },
     "school": "İstanbul Bilgi Üniversitesi"
+  },
+  "footer": {
+    "text0": "Bertaç Severcan tarafından ",
+    "text1": "ile yapılmıştır"
   }
 }

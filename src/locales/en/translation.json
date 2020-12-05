@@ -162,5 +162,9 @@
       }
     },
     "school": "Istanbul Bilgi University"
+  },
+  "footer": {
+    "text0": "Made with ",
+    "text1": "by Bertaç Severcan"
   }
 }
