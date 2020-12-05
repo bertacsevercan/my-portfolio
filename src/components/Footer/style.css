@@ -4,7 +4,24 @@
   padding: 0 15px;
 }
 
+.container Button {
+  margin-top: 0.5em;
+  float: right;
+}
+
+.container span {
+  margin-top: 3em;
+}
+
 .footer {
   background-color: #ffee93;
   height: 3rem;
+}
+
+#linkedin-icon {
+  color: blue;
+}
+
+#github-icon {
+  color: black;
 }
