@@ -15,15 +15,17 @@ function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <div className="App">
-        <Router>
-          <NavBar />
-          <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-          <Footer />
-        </Router>
+        <div className="content-wrapper">
+          <Router>
+            <NavBar />
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
+            <Footer />
+          </Router>
+        </div>
       </div>
     </I18nextProvider>
   );

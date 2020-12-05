@@ -5,17 +5,14 @@
 }
 
 .container Button {
-  margin-top: 0.5em;
   float: right;
 }
 
-.container span {
-  margin-top: 3em;
-}
-
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #ffee93;
-  height: 3rem;
 }
 
 #linkedin-icon {
@@ -24,4 +21,14 @@
 
 #github-icon {
   color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .container Button {
+    float: unset;
+  }
+
+  .footer {
+    height: fit-content;
+  }
 }
