@@ -58,4 +58,8 @@
   .project-wrapper iframe {
     width: 100%;
   }
+
+  .otherProjects ul {
+    padding-left: 1rem;
+  }
 }

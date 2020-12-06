@@ -27,8 +27,4 @@
   .container Button {
     float: unset;
   }
-
-  .footer {
-    height: fit-content;
-  }
 }

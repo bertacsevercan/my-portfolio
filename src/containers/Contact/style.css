@@ -84,6 +84,14 @@
     padding: 1rem;
   }
 
+  .contact-info-text {
+    width: 100%;
+  }
+
+  .contact-info p {
+    word-break: break-word;
+  }
+
   .hey {
     padding-top: 2rem;
   }
