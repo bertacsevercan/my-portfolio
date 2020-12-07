@@ -20,6 +20,7 @@ const Projects = () => {
     "Tic-Tac-Toe",
     "Rock-Paper-Scissors",
     "Smart-Calculator",
+    "Tic-Tac-Toe With AI",
   ];
 
   const textList = [
@@ -50,6 +51,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Tic-Tac-Toe",
     "https://github.com/bertacsevercan/Rock-Paper-Scissors",
     "https://github.com/bertacsevercan/Smart-Calculator",
+    "https://github.com/bertacsevercan/tic-tac-toe-with-ai",
   ];
 
   const linkList = [
@@ -68,11 +70,14 @@ const Projects = () => {
     "JavaScript, HTML, CSS, i18next, localstorage",
     "TypeScript, ExpressJS, MySQL, XAMMP, REST API, React, JavaScript, TypeORM",
     "Python",
-    "Python, Argparse, Load module",
-    "Python, Load module, Random module",
+    "Python, Argparse",
+    "Python, Random module",
     "Python",
     "Python, Random module",
-    "Python, Deque, Load module",
+    "Python, Deque",
+    "Python",
+    "Random module",
+    "Deepcopy module",
   ];
 
   const topicList = [
@@ -83,11 +88,12 @@ const Projects = () => {
     "Vanilla JavaScript, HTML and CSS, i18next, Regular Expressions",
     "REST API, Object relational mapping",
     "Matrices, Math library, Nested lists, Recursion",
-    "Argparse module, Load module",
+    "Argparse module",
     "Functions, loops, lists and other data types, Random and Load library",
     "Error handling, Nested lists",
     "Random module, Arrays, Formatted strings",
     "Stack, Queue, Deque, Dictionaries",
+    "Object oriented programming, Minimax algorithm",
   ];
 
   const otherProjectsRepos = [
