@@ -10,8 +10,17 @@ import NavBar from "./components/NavBar";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import Footer from "./components/Footer";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
+
+const trackingId = "G-VTRXQSG4GC";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(trackingId);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  });
+
   return (
     <I18nextProvider i18n={i18n}>
       <div className="App">
