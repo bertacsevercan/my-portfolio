@@ -69,3 +69,17 @@
     font-size: x-large;
   }
 }
+
+@media only screen and (min-width: 2560px) {
+  .titles h1 {
+    font-size: 6rem;
+  }
+
+  .titles h2 {
+    font-size: 4rem;
+  }
+
+  .buttons-wrapper .button {
+    font-size: xx-large;
+  }
+}

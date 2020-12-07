@@ -147,7 +147,7 @@ const Projects = () => {
       <h1 className="title">{t("projects.titles.title0")}</h1>
       {projectObjList.map((project) => (
         <div className="project-wrapper">
-          <h1>{project.title}</h1>
+          <h2>{project.title}</h2>
           <h3>
             <a
               className="github-icon"

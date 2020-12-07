@@ -47,3 +47,17 @@
     font-size: x-large;
   }
 }
+
+@media only screen and (min-width: 2560px) {
+  .resume h1 {
+    font-size: 5rem;
+  }
+
+  .resume h6 {
+    font-size: 2rem;
+  }
+
+  .techProject-text ul {
+    padding-left: 1.5rem;
+  }
+}

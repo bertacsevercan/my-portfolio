@@ -100,6 +100,7 @@ const Contact = () => {
             </h5>
             <div className="social-links">
               <a
+                id="git"
                 target="_blank"
                 rel="noreferrer"
                 title={t("contact.texts.text1")}
@@ -109,6 +110,7 @@ const Contact = () => {
                 <FaGithub className="social-icons" />{" "}
               </a>
               <a
+                id="linkIn"
                 target="_blank"
                 rel="noreferrer"
                 title={t("contact.texts.text2")}
@@ -118,6 +120,7 @@ const Contact = () => {
                 <FaLinkedinIn className="social-icons" />{" "}
               </a>
               <a
+                id="jet"
                 target="_blank"
                 rel="noreferrer"
                 title={t("contact.texts.text3")}

@@ -6,6 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import { MdLanguage } from "react-icons/md";
+import "./style.css";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const NavBar = () => {
 
   return (
     <Navbar expanded={expanded} bg="danger" variant="dark" expand="lg">
-      <Navbar.Brand as={Link} to="/">
+      <Navbar.Brand id="nav-title" as={Link} to="/">
         Bertaç Severcan
       </Navbar.Brand>
       <Navbar.Toggle
@@ -62,6 +63,7 @@ const NavBar = () => {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item
+                id="tr"
                 onClick={() => {
                   i18next.changeLanguage("tr");
                   setExpanded(false);
@@ -72,6 +74,7 @@ const NavBar = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
+                id="en"
                 onClick={() => {
                   i18next.changeLanguage("en");
                   setExpanded(false);

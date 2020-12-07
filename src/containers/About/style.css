@@ -29,6 +29,20 @@
   text-shadow: 1px 1px gray;
 }
 
+@media only screen and (min-width: 2560px) {
+  .about h1 {
+    font-size: 5rem;
+  }
+
+  .about h5 {
+    font-size: 2.5rem;
+  }
+
+  .about p {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (min-width: 1910px) {
   .img-wrapper {
     max-width: 100%;

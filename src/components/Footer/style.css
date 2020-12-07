@@ -1,6 +1,6 @@
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 43rem;
   padding: 0 15px;
 }
 
@@ -26,5 +26,14 @@
 @media only screen and (max-width: 576px) {
   .container Button {
     float: unset;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .container {
+    max-width: 63rem;
+  }
+
+  .container Button {
+    font-size: 1.5rem;
   }
 }

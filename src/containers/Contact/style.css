@@ -56,6 +56,48 @@
   max-height: auto;
 }
 
+@media only screen and (min-width: 2560px) {
+  .contact h1 {
+    font-size: 5rem;
+  }
+
+  .contact input {
+    font-size: 2rem;
+  }
+
+  .contact label {
+    font-size: 3rem;
+  }
+
+  .contact textarea {
+    font-size: 2rem;
+  }
+
+  .contact Button {
+    font-size: xx-large;
+  }
+
+  .contact h5 {
+    font-size: 3rem;
+  }
+
+  #git {
+    margin: 2rem 2rem 2rem 6rem;
+  }
+
+  #linkIn {
+    margin: 2rem 2rem 2rem 1rem;
+  }
+
+  #jet {
+    margin: 2rem 0rem 2rem 1rem;
+  }
+
+  .hey {
+    width: 500px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .contact {
     flex-direction: column;
