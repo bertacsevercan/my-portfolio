@@ -12,6 +12,7 @@ import {
   FaLinkedinIn,
   FaLevelDownAlt,
 } from "react-icons/fa";
+import { SiJetbrains } from "react-icons/si";
 import hey from "../../images/hey.png";
 import "./style.css";
 import { useTranslation } from "react-i18next";
@@ -115,6 +116,15 @@ const Contact = () => {
               >
                 {" "}
                 <FaLinkedinIn className="social-icons" />{" "}
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                title={t("contact.texts.text3")}
+                href="https://hyperskill.org/profile/14103204"
+              >
+                {" "}
+                <SiJetbrains className="social-icons" />{" "}
               </a>
             </div>
           </div>

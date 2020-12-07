@@ -93,6 +93,6 @@
   }
 
   .hey {
-    padding-top: 2rem;
+    display: none;
   }
 }
