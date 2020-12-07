@@ -6,7 +6,7 @@ import hangmanDemo from "../../../images/hangmanDemo.gif";
 import ticTacToeDemo from "../../../images/ticTacToeDemo.gif";
 import rockPaperScissorsDemo from "../../../images/rockPaperScissorsDemo.gif";
 import smartCalcDemo from "../../../images/smartCalcDemo.gif";
-import tictactoeaiDemo from "../../images/tictactoeaiDemo.gif";
+import tictactoeaiDemo from "../../../images/tictactoeaiDemo.gif";
 import "./style.css";
 
 const projectList = [

@@ -76,9 +76,8 @@ const Projects = () => {
     "Python",
     "Python, Random module",
     "Python, Deque",
-    "Python",
-    "Random module",
-    "Deepcopy module",
+    "Python, Random module, Deepcopy module",
+   
   ];
 
   const topicList = [
