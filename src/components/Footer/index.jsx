@@ -18,6 +18,7 @@ const Footer = () => {
 
   return (
     <div className="footer mt-auto py-3">
+      <div className="empty-container" />
       <div className="container">
         <span>
           {t("footer.text0")} {<AiTwotoneHeart style={{ color: "red" }} />}{" "}
