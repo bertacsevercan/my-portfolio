@@ -99,7 +99,6 @@ const Contact = () => {
               <FaUserFriends /> {t("contact.headers.head3")}
             </h5>
             <div className="social-links">
-              <p>BUG</p>
               <a
                 id="git"
                 target="_blank"

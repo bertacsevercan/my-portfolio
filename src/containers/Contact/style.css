@@ -137,4 +137,8 @@
   .hey {
     display: none;
   }
+
+  .social-links {
+    display: unset;
+  }
 }
