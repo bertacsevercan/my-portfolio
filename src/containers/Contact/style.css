@@ -135,10 +135,6 @@
   }
 
   .hey {
-    display: none;
-  }
-
-  .social-links {
-    display: unset;
+    padding-top: 1rem;
   }
 }
