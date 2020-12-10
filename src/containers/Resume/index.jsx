@@ -55,7 +55,7 @@ const Resume = () => {
               rel="noreferrer"
               target="_blank"
               title={t("projects.links.link1")}
-              href="https://my-inventory.netlify.app"
+              href="https://my-inventory-demo.netlify.app"
             >
               <GoLinkExternal />
             </a>
@@ -88,7 +88,7 @@ const Resume = () => {
               rel="noreferrer"
               target="_blank"
               title={t("projects.links.link1")}
-              href="https://feed-the-needy.netlify.app"
+              href="https://itsonus.netlify.app"
             >
               <GoLinkExternal />
             </a>
