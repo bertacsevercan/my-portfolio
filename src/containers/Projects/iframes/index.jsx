@@ -7,7 +7,7 @@ import ticTacToeDemo from "../../../images/ticTacToeDemo.gif";
 import rockPaperScissorsDemo from "../../../images/rockPaperScissorsDemo.gif";
 import smartCalcDemo from "../../../images/smartCalcDemo.gif";
 import tictactoeaiDemo from "../../../images/tictactoeaiDemo.gif";
-import multiLanguageTranslatorDemo from "../../../images/multiLanguageTranslatorDemo.gif";
+import multiLangTranslatorDemo from "../../../images/multiLangTranslatorDemo.gif";
 import "./style.css";
 
 const projectList = [
@@ -99,7 +99,7 @@ const projectList = [
   ></iframe>,
   <iframe
   title="Translator"
-  src={multiLanguageTranslatorDemo}
+  src={multiLangTranslatorDemo}
   width="80%"
   height="500"
   frameBorder="0"
