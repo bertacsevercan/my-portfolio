@@ -38,6 +38,7 @@ const Projects = () => {
     t("projects.texts.text10"),
     t("projects.texts.text11"),
     t("projects.texts.text12"),
+    t("projects.texts.text13"),
   ];
 
   const repoList = [
