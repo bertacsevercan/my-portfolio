@@ -7,6 +7,7 @@ import ticTacToeDemo from "../../../images/ticTacToeDemo.gif";
 import rockPaperScissorsDemo from "../../../images/rockPaperScissorsDemo.gif";
 import smartCalcDemo from "../../../images/smartCalcDemo.gif";
 import tictactoeaiDemo from "../../../images/tictactoeaiDemo.gif";
+import multiLanguageTranslatorDemo from "../../../images/multiLanguageTranslatorDemo.gif";
 import "./style.css";
 
 const projectList = [
@@ -96,5 +97,12 @@ const projectList = [
     height="500"
     frameBorder="0"
   ></iframe>,
+  <iframe
+  title="Translator"
+  src={multiLanguageTranslatorDemo}
+  width="80%"
+  height="500"
+  frameBorder="0"
+></iframe>,
 ];
 export default projectList;
