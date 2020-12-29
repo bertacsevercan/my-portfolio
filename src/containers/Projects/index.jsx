@@ -106,6 +106,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Coffee-Machine",
     "https://github.com/bertacsevercan/Simple-Chat-Bot",
     "https://github.com/bertacsevercan/restaurant-res-system",
+    "https://github.com/bertacsevercan/Simple-Regex-Engine",
   ];
 
   const otherProjectsNames = [
@@ -114,6 +115,7 @@ const Projects = () => {
     "Coffee-Machine",
     "Simple-Chat-Bot",
     "Full-Stack Restaurant Reservation App",
+    "Simple Regex Engine",
   ];
 
   const otherProjectsTech = [
@@ -122,6 +124,7 @@ const Projects = () => {
     "Python, Object oriented programming",
     "Python, Control statements",
     "Java, JDBC, MySQL, SQL, Java Swing UI",
+    "Python, Regular expressions",
   ];
 
   const otherProjectList = [];
