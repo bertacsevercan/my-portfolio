@@ -13,7 +13,7 @@ const Resume = () => {
         <h1>Bertaç Severcan</h1>
         <div className="contact-head">
           <p>
-            +90-543-327-9325 | bertac.severcan@gmail.com |{" "}
+            bertac.severcan@gmail.com |{" "}
             <a
               href="https://github.com/bertacsevercan"
               rel="noreferrer"

@@ -21,7 +21,7 @@ const Projects = () => {
     "Rock-Paper-Scissors",
     "Smart-Calculator",
     "Tic-Tac-Toe With AI",
-    "Multilingual Online Translator"
+    "Multilingual Online Translator",
   ];
 
   const textList = [
@@ -55,7 +55,7 @@ const Projects = () => {
     "https://github.com/bertacsevercan/Rock-Paper-Scissors",
     "https://github.com/bertacsevercan/Smart-Calculator",
     "https://github.com/bertacsevercan/tic-tac-toe-with-ai",
-    "https://github.com/bertacsevercan/Multilingual-Online-Translator"
+    "https://github.com/bertacsevercan/Multilingual-Online-Translator",
   ];
 
   const linkList = [
@@ -80,7 +80,7 @@ const Projects = () => {
     "Python, Random module",
     "Python, Deque",
     "Python, Random module, Deepcopy module",
-    "Python, Requests module, Sys module, BeautifulSoup library"
+    "Python, Requests module, Sys module, BeautifulSoup library",
   ];
 
   const topicList = [
@@ -97,7 +97,7 @@ const Projects = () => {
     "Random module, Arrays, Formatted strings",
     "Stack, Queue, Deque, Dictionaries",
     "Object oriented programming, Minimax algorithm",
-    "HTTP requests, argparse and sys modules"
+    "HTTP requests, argparse and sys modules",
   ];
 
   const otherProjectsRepos = [

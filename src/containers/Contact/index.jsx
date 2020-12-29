@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import {
   FaMapMarkedAlt,
-  FaPhoneAlt,
   FaMailBulk,
   FaAddressCard,
   FaUserFriends,
@@ -74,6 +73,7 @@ const Contact = () => {
           {t("contact.titles.title1")} <FaAddressCard />{" "}
         </h1>
         <br />
+        <br />
         <div className="contact-info-flex">
           <div className="contact-info-text">
             <h5>
@@ -82,17 +82,13 @@ const Contact = () => {
             </h5>
             <p>{t("contact.texts.text0")}</p>
             <br />
-            <h5>
-              {" "}
-              <FaPhoneAlt /> {t("contact.headers.head1")}
-            </h5>
-            <p>+905433279325</p>
             <br />
             <h5>
               {" "}
               <FaMailBulk /> {t("contact.headers.head2")}
             </h5>
             <p>bertac.severcan@gmail.com</p>
+            <br />
             <br />
             <h5>
               {" "}

@@ -98,11 +98,11 @@ const projectList = [
     frameBorder="0"
   ></iframe>,
   <iframe
-  title="Translator"
-  src={multiLangTranslatorDemo}
-  width="80%"
-  height="500"
-  frameBorder="0"
-></iframe>,
+    title="Translator"
+    src={multiLangTranslatorDemo}
+    width="80%"
+    height="500"
+    frameBorder="0"
+  ></iframe>,
 ];
 export default projectList;
